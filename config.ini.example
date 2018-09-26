@@ -1,0 +1,51 @@
+[region_sea]
+## Full province list
+uri_province_list = https://asia.wargaming.net/globalmap/i18n/geo_game_en.json
+## API to get province info
+uri_province_info = https://asia.wargaming.net/globalmap/game_api/province_info
+## Collection for the region
+db_coll = cw_sea
+
+[region_na]
+## Full province list
+uri_province_list = https://na.wargaming.net/globalmap/i18n/geo_game_en.json
+## API to get province info
+uri_province_info = https://na.wargaming.net/globalmap/game_api/province_info
+## Collection for the region
+db_coll = cw_na
+
+[region_eu]
+## Full province list
+uri_province_list = https://eu.wargaming.net/globalmap/i18n/geo_game_en.json
+## API to get province info
+uri_province_info = https://eu.wargaming.net/globalmap/game_api/province_info
+## Collection for the region
+db_coll = cw_eu
+
+[region_ru]
+## Full province list
+uri_province_list = https://ru.wargaming.net/globalmap/i18n/geo_game_en.json
+## API to get province info
+uri_province_info = https://ru.wargaming.net/globalmap/game_api/province_info
+## Collection for the region
+db_coll = cw_eu
+
+[region_test]
+## Full province list
+uri_province_list = https://asia.wargaming.net/globalmap/i18n/geo_game_en.json
+## API to get province info
+uri_province_info = https://asia.wargaming.net/globalmap/game_api/province_info
+## API to get province  battle history
+uri_province_history = https://asia.wargaming.net/globalmap/game_api/battle_points/
+## Collection for the region
+db_coll = cw_test
+
+[global]
+## DB Connection URI
+db_uri = mongodb://CONNECTIONSTRING
+## DB Database
+db = wotdata
+## Dates for battle history
+date_from = 2018-09-24T00:00
+date_to = 2018-10-24T00:00
+thread_count = 5
