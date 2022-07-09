@@ -6,7 +6,7 @@ import configparser
 import argparse
 from concurrent.futures import ThreadPoolExecutor
 
-default_region = "region_test"
+default_region = "region_sea"
 conf_file = "config.ini"
 _type = "battlehistory"
 

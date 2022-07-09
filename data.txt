@@ -1,0 +1,182 @@
+1581550398.570946 STARTED, Region: region_sea Mode: update
+{'is_battle_offset': 'True', 'arena_name': 'Mines', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Currant'}
+{'is_battle_offset': 'False', 'arena_name': 'Murovanka', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Sierra Vista'}
+{'is_battle_offset': 'True', 'arena_name': 'Fjords', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Amargosa Valley'}
+{'is_battle_offset': 'True', 'arena_name': 'Serene Coast', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Pioche'}
+{'is_battle_offset': 'True', 'arena_name': 'Steppes', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Caliente'}
+{'is_battle_offset': 'True', 'arena_name': "Fisherman's Bay", 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Heroica Nogales'}
+{'is_battle_offset': 'False', 'arena_name': 'Cliff', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Hermosillo'}
+{'is_battle_offset': 'True', 'arena_name': 'Highway', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Bavispe'}
+{'is_battle_offset': 'True', 'arena_name': "Fisherman's Bay", 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Round Mountain'}
+{'is_battle_offset': 'True', 'arena_name': 'Karelia', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Tonopah'}
+{'is_battle_offset': 'False', 'arena_name': 'Abbey', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Tucson'}
+{'is_battle_offset': 'True', 'arena_name': 'Steppes', 'primetime': '11:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Bayfield'}
+{'is_battle_offset': 'True', 'arena_name': 'Westfield', 'primetime': '10:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Salida'}
+{'is_battle_offset': 'True', 'arena_name': 'Fjords', 'primetime': '09:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Walsenburg'}
+{'is_battle_offset': 'True', 'arena_name': 'Fjords', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Guaymas'}
+{'is_battle_offset': 'False', 'arena_name': 'Sand River', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Adaven'}
+{'is_battle_offset': 'False', 'arena_name': 'Westfield', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Nacori Chico'}
+{'is_battle_offset': 'True', 'arena_name': 'Live Oaks', 'primetime': '10:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Cleburne'}
+{'is_battle_offset': 'False', 'arena_name': 'Steppes', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Ures'}
+{'is_battle_offset': 'False', 'arena_name': 'Lakeville', 'primetime': '09:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Australia', 'name': 'Cypress'}
+{'is_battle_offset': 'False', 'arena_name': 'Redshire', 'primetime': '10:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Kyle'}
+{'is_battle_offset': 'False', 'arena_name': 'Serene Coast', 'primetime': '11:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Lampasas'}
+{'is_battle_offset': 'False', 'arena_name': 'Westfield', 'primetime': '10:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Waco'}
+{'is_battle_offset': 'False', 'arena_name': 'Mines', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Rock Springs'}
+{'is_battle_offset': 'True', 'arena_name': 'Abbey', 'primetime': '11:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Rawlins'}
+{'is_battle_offset': 'False', 'arena_name': 'Highway', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Lander'}
+{'is_battle_offset': 'True', 'arena_name': 'Cliff', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Ciudad Juárez'}
+{'is_battle_offset': 'True', 'arena_name': 'Live Oaks', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Agua Prieta'}
+{'is_battle_offset': 'True', 'arena_name': 'Lakeville', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Worland'}
+{'is_battle_offset': 'False', 'arena_name': 'Lakeville', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Flores Magón'}
+{'is_battle_offset': 'False', 'arena_name': 'Fjords', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Minero'}
+{'is_battle_offset': 'False', 'arena_name': 'Lakeville', 'primetime': '10:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Alamosa'}
+{'is_battle_offset': 'False', 'arena_name': 'Karelia', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Grand Island'}
+{'is_battle_offset': 'False', 'arena_name': 'Ruinberg', 'primetime': '11:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Gunnison'}
+{'is_battle_offset': 'True', 'arena_name': 'Sand River', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Cortez'}
+{'is_battle_offset': 'True', 'arena_name': 'Ruinberg', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Kearney'}
+{'is_battle_offset': 'True', 'arena_name': 'Abbey', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Manhattan'}
+{'is_battle_offset': 'True', 'arena_name': "Fisherman's Bay", 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Omaha'}
+{'is_battle_offset': 'False', 'arena_name': 'Cliff', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Smith Center'}
+{'is_battle_offset': 'False', 'arena_name': 'Murovanka', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'McCook'}
+{'is_battle_offset': 'False', 'arena_name': 'Lakeville', 'primetime': '09:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Ogallala'}
+{'is_battle_offset': 'True', 'arena_name': 'Murovanka', 'primetime': '09:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Colby'}
+{'is_battle_offset': 'True', 'arena_name': 'Abbey', 'primetime': '09:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'North Platte'}
+{'is_battle_offset': 'False', 'arena_name': 'Lakeville', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Topeka'}
+{'is_battle_offset': 'False', 'arena_name': 'Fjords', 'primetime': '11:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Casper'}
+{'is_battle_offset': 'False', 'arena_name': 'Cliff', 'primetime': '09:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Wray'}
+{'is_battle_offset': 'False', 'arena_name': 'Murovanka', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Moab'}
+{'is_battle_offset': 'False', 'arena_name': 'Prokhorovka', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Montrose'}
+{'is_battle_offset': 'False', 'arena_name': 'Cliff', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Oljeto'}
+{'is_battle_offset': 'True', 'arena_name': 'Redshire', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Hailey'}
+{'is_battle_offset': 'True', 'arena_name': 'Highway', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Lowman'}
+{'is_battle_offset': 'True', 'arena_name': 'Prokhorovka', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Dans Place'}
+{'is_battle_offset': 'True', 'arena_name': 'Malinovka', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Nyssa'}
+{'is_battle_offset': 'False', 'arena_name': 'Mines', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Twin Falls'}
+{'is_battle_offset': 'True', 'arena_name': 'Redshire', 'primetime': '11:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Brady'}
+{'is_battle_offset': 'True', 'arena_name': 'Ruinberg', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Dryden Crossing'}
+{'is_battle_offset': 'True', 'arena_name': 'Murovanka', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Fort Stockton'}
+{'is_battle_offset': 'False', 'arena_name': 'Prokhorovka', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Mertzon'}
+{'is_battle_offset': 'False', 'arena_name': 'Cliff', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Uvalde'}
+{'is_battle_offset': 'False', 'arena_name': 'Ensk', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Brackettville'}
+{'is_battle_offset': 'True', 'arena_name': "Fisherman's Bay", 'primetime': '11:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'San Angelo'}
+{'is_battle_offset': 'False', 'arena_name': 'Sand River', 'primetime': '11:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Brownwood'}
+{'is_battle_offset': 'False', 'arena_name': 'Live Oaks', 'primetime': '11:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'San Antonio'}
+{'is_battle_offset': 'False', 'arena_name': 'Sand River', 'primetime': '10:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Colorado Springs'}
+{'is_battle_offset': 'False', 'arena_name': 'Murovanka', 'primetime': '10:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Denver'}
+{'is_battle_offset': 'True', 'arena_name': 'Ensk', 'primetime': '10:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Fort Collins'}
+{'is_battle_offset': 'False', 'arena_name': 'Live Oaks', 'primetime': '09:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Rocky Ford'}
+{'is_battle_offset': 'True', 'arena_name': 'Karelia', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Butte City'}
+{'is_battle_offset': 'False', 'arena_name': 'Fjords', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Grouse Creek'}
+{'is_battle_offset': 'False', 'arena_name': "Fisherman's Bay", 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Pocatello'}
+{'is_battle_offset': 'True', 'arena_name': 'Redshire', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Shores'}
+{'is_battle_offset': 'True', 'arena_name': 'Ruinberg', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Jordan Valley'}
+{'is_battle_offset': 'False', 'arena_name': 'Westfield', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Frenchglen'}
+{'is_battle_offset': 'False', 'arena_name': 'Overlord', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Burley'}
+{'is_battle_offset': 'True', 'arena_name': 'Malinovka', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Challis'}
+{'is_battle_offset': 'False', 'arena_name': 'Himmelsdorf', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Rexburg'}
+{'is_battle_offset': 'True', 'arena_name': 'Prokhorovka', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Idaho Falls'}
+{'is_battle_offset': 'False', 'arena_name': 'Ruinberg', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Australia', 'name': 'Tyler'}
+{'is_battle_offset': 'True', 'arena_name': 'Murovanka', 'primetime': '09:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Australia', 'name': 'Lufkin'}
+{'is_battle_offset': 'False', 'arena_name': 'Steppes', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Boise'}
+{'is_battle_offset': 'False', 'arena_name': 'Lakeville', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Gouge Eye'}
+{'is_battle_offset': 'False', 'arena_name': 'Abbey', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Ibapah'}
+{'is_battle_offset': 'True', 'arena_name': 'Himmelsdorf', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Elko'}
+{'is_battle_offset': 'False', 'arena_name': 'Ensk', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'McGill'}
+{'is_battle_offset': 'True', 'arena_name': 'Ensk', 'primetime': '09:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Brush'}
+{'is_battle_offset': 'True', 'arena_name': 'Overlord', 'primetime': '10:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Lake George'}
+{'is_battle_offset': 'True', 'arena_name': 'Himmelsdorf', 'primetime': '10:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Estes Park'}
+{'is_battle_offset': 'False', 'arena_name': 'Steppes', 'primetime': '09:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Liberal'}
+{'is_battle_offset': 'True', 'arena_name': 'Mines', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Hays'}
+{'is_battle_offset': 'False', 'arena_name': "Fisherman's Bay", 'primetime': '09:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Scott City'}
+{'is_battle_offset': 'True', 'arena_name': 'Westfield', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Chihuahua'}
+{'is_battle_offset': 'True', 'arena_name': 'Malinovka', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Redford'}
+{'is_battle_offset': 'False', 'arena_name': 'Ensk', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Pratt'}
+{'is_battle_offset': 'True', 'arena_name': 'Redshire', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'El Porvenir'}
+{'is_battle_offset': 'False', 'arena_name': 'Prokhorovka', 'primetime': '10:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Cheyenne'}
+{'is_battle_offset': 'False', 'arena_name': 'Malinovka', 'primetime': '10:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Scottsbluff'}
+{'is_battle_offset': 'False', 'arena_name': 'Highway', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Marfa'}
+{'is_battle_offset': 'True', 'arena_name': 'Lakeville', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Midland'}
+{'is_battle_offset': 'True', 'arena_name': 'Abbey', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Pecos'}
+{'is_battle_offset': 'True', 'arena_name': 'Live Oaks', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Wimer Place'}
+{'is_battle_offset': 'False', 'arena_name': 'Abbey', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Burns'}
+{'is_battle_offset': 'False', 'arena_name': 'Overlord', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Newpass'}
+{'is_battle_offset': 'False', 'arena_name': 'Live Oaks', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'McDermitt'}
+{'is_battle_offset': 'True', 'arena_name': 'Murovanka', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Reno'}
+{'is_battle_offset': 'True', 'arena_name': 'Ensk', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Winnemucca'}
+{'is_battle_offset': 'False', 'arena_name': "Fisherman's Bay", 'primetime': '11:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Midwest'}
+{'is_battle_offset': 'True', 'arena_name': 'Overlord', 'primetime': '11:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Savageton'}
+{'is_battle_offset': 'False', 'arena_name': 'Serene Coast', 'primetime': '11:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Sheridan'}
+{'is_battle_offset': 'False', 'arena_name': 'Ensk', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Grand Junction'}
+{'is_battle_offset': 'False', 'arena_name': 'Prokhorovka', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Beatrice'}
+{'is_battle_offset': 'True', 'arena_name': 'Fjords', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Ord'}
+{'is_battle_offset': 'False', 'arena_name': 'Serene Coast', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Gold Acres'}
+{'is_battle_offset': 'True', 'arena_name': 'Live Oaks', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Crescent Junction'}
+{'is_battle_offset': 'False', 'arena_name': 'Redshire', 'primetime': '11:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Steamboat Springs'}
+{'is_battle_offset': 'False', 'arena_name': 'Highway', 'primetime': '11:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Glenwood Springs'}
+{'is_battle_offset': 'True', 'arena_name': 'Abbey', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Cody'}
+{'is_battle_offset': 'True', 'arena_name': 'Mines', 'primetime': '11:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Meeker'}
+{'is_battle_offset': 'False', 'arena_name': 'Westfield', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Salt Lake City'}
+{'is_battle_offset': 'True', 'arena_name': 'Ruinberg', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Decoy'}
+{'is_battle_offset': 'True', 'arena_name': 'Serene Coast', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Arivechi'}
+{'is_battle_offset': 'True', 'arena_name': 'Serene Coast', 'primetime': '10:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Chadron'}
+{'is_battle_offset': 'True', 'arena_name': 'Lakeville', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Kanab'}
+{'is_battle_offset': 'False', 'arena_name': 'Live Oaks', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Manti'}
+{'is_battle_offset': 'False', 'arena_name': 'Himmelsdorf', 'primetime': '11:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Sinclair'}
+{'is_battle_offset': 'False', 'arena_name': 'Sand River', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'St. George'}
+{'is_battle_offset': 'True', 'arena_name': 'Overlord', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Ellis'}
+{'is_battle_offset': 'False', 'arena_name': 'Westfield', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Salina'}
+{'is_battle_offset': 'True', 'arena_name': 'Prokhorovka', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Australia', 'name': 'Lafayette'}
+{'is_battle_offset': 'True', 'arena_name': 'Serene Coast', 'primetime': '09:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Australia', 'name': 'Vidor'}
+{'is_battle_offset': 'False', 'arena_name': 'Murovanka', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Hamlin Valley'}
+{'is_battle_offset': 'True', 'arena_name': 'Karelia', 'primetime': '10:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Rosenberg'}
+{'is_battle_offset': 'True', 'arena_name': 'Himmelsdorf', 'primetime': '10:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Austin'}
+{'is_battle_offset': 'True', 'arena_name': 'Malinovka', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Loa'}
+{'is_battle_offset': 'False', 'arena_name': 'Karelia', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Australia', 'name': 'Monroe'}
+{'is_battle_offset': 'False', 'arena_name': 'Malinovka', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Australia', 'name': 'Natchitoches'}
+{'is_battle_offset': 'False', 'arena_name': 'Abbey', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Australia', 'name': 'New Orleans'}
+{'is_battle_offset': 'True', 'arena_name': 'Serene Coast', 'primetime': '09:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Lamar'}
+{'is_battle_offset': 'True', 'arena_name': 'Himmelsdorf', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Pinedale'}
+{'is_battle_offset': 'True', 'arena_name': 'Live Oaks', 'primetime': '11:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Bairoil'}
+{'is_battle_offset': 'False', 'arena_name': 'Karelia', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Pavillion'}
+{'is_battle_offset': 'True', 'arena_name': 'Steppes', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'El Paso'}
+{'is_battle_offset': 'True', 'arena_name': 'Cliff', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Ephraim'}
+{'is_battle_offset': 'True', 'arena_name': 'Sand River', 'primetime': '09:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Australia', 'name': 'Dallas'}
+{'is_battle_offset': 'False', 'arena_name': 'Sand River', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Emporia'}
+{'is_battle_offset': 'True', 'arena_name': 'Steppes', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league3', 'periphery': 'W.o.T. Hong Kong', 'name': 'Estación Camacho'}
+{'is_battle_offset': 'True', 'arena_name': 'Cliff', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league3', 'periphery': 'W.o.T. Hong Kong', 'name': 'San Luis Potosi'}
+{'is_battle_offset': 'True', 'arena_name': 'Highway', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Provo'}
+{'is_battle_offset': 'False', 'arena_name': 'Westfield', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league3', 'periphery': 'W.o.T. Hong Kong', 'name': 'Ojocaliente'}
+{'is_battle_offset': 'False', 'arena_name': 'Karelia', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league3', 'periphery': 'W.o.T. Hong Kong', 'name': 'Rancho Del Puente'}
+{'is_battle_offset': 'False', 'arena_name': 'Highway', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Gerlach'}
+{'is_battle_offset': 'False', 'arena_name': 'Ruinberg', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Vernal'}
+{'is_battle_offset': 'False', 'arena_name': 'Mines', 'primetime': '09:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Dodge City'}
+{'is_battle_offset': 'True', 'arena_name': 'Live Oaks', 'primetime': '11:00:00', 'front_id': 'dawn_of_industry_sg_league3', 'periphery': 'W.o.T. Hong Kong', 'name': 'Ixmiquilpan'}
+{'is_battle_offset': 'True', 'arena_name': 'Ensk', 'primetime': '10:00:00', 'front_id': 'dawn_of_industry_sg_league3', 'periphery': 'W.o.T. Hong Kong', 'name': 'Poza Rica de Hidalgo'}
+{'is_battle_offset': 'False', 'arena_name': "Fisherman's Bay", 'primetime': '09:00:00', 'front_id': 'dawn_of_industry_sg_league3', 'periphery': 'W.o.T. Australia', 'name': 'Puebla'}
+{'is_battle_offset': 'True', 'arena_name': 'Redshire', 'primetime': '09:00:00', 'front_id': 'dawn_of_industry_sg_league3', 'periphery': 'W.o.T. Australia', 'name': 'Xalapa'}
+{'is_battle_offset': 'True', 'arena_name': 'Sand River', 'primetime': '11:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Gillette'}
+{'is_battle_offset': 'False', 'arena_name': 'Ruinberg', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Las Cruces'}
+{'is_battle_offset': 'False', 'arena_name': 'Westfield', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Blanding'}
+{'is_battle_offset': 'False', 'arena_name': "Fisherman's Bay", 'primetime': '09:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Australia', 'name': 'Houston'}
+{'is_battle_offset': 'True', 'arena_name': 'Ensk', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Australia', 'name': 'Natchez'}
+{'is_battle_offset': 'False', 'arena_name': 'Karelia', 'primetime': '10:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Guernsey'}
+{'is_battle_offset': 'True', 'arena_name': 'Fjords', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Greybull'}
+{'is_battle_offset': 'False', 'arena_name': 'Himmelsdorf', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Australia', 'name': 'Shreveport'}
+{'is_battle_offset': 'True', 'arena_name': 'Cliff', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Schurz'}
+{'is_battle_offset': 'True', 'arena_name': 'Westfield', 'primetime': '09:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Benkelman'}
+{'is_battle_offset': 'True', 'arena_name': 'Steppes', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Moxa'}
+{'is_battle_offset': 'False', 'arena_name': 'Redshire', 'primetime': '09:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Hay Springs'}
+{'is_battle_offset': 'True', 'arena_name': 'Himmelsdorf', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Overland Park'}
+{'is_battle_offset': 'True', 'arena_name': 'Murovanka', 'primetime': '14:00:00', 'front_id': 'dawn_of_industry_sg_league3', 'periphery': 'W.o.T. Hong Kong', 'name': 'Sombrerete'}
+{'is_battle_offset': 'True', 'arena_name': 'Redshire', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Wichita'}
+{'is_battle_offset': 'False', 'arena_name': "Fisherman's Bay", 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Teton Village'}
+{'is_battle_offset': 'True', 'arena_name': 'Malinovka', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league3', 'periphery': 'W.o.T. Hong Kong', 'name': 'Querétaro'}
+{'is_battle_offset': 'False', 'arena_name': 'Sand River', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league2', 'periphery': 'W.o.T. Hong Kong', 'name': 'Loving'}
+{'is_battle_offset': 'False', 'arena_name': 'Himmelsdorf', 'primetime': '13:00:00', 'front_id': 'dawn_of_industry_sg_league3', 'periphery': 'W.o.T. Hong Kong', 'name': 'Matehuala'}
+{'is_battle_offset': 'False', 'arena_name': 'Malinovka', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Australia', 'name': 'Parsons'}
+{'is_battle_offset': 'False', 'arena_name': 'Prokhorovka', 'primetime': '10:00:00', 'front_id': 'dawn_of_industry_sg_league3', 'periphery': 'W.o.T. Hong Kong', 'name': 'Mexico City'}
+{'is_battle_offset': 'False', 'arena_name': 'Highway', 'primetime': '11:00:00', 'front_id': 'dawn_of_industry_sg_league3', 'periphery': 'W.o.T. Hong Kong', 'name': 'Tampico'}
+{'is_battle_offset': 'False', 'arena_name': 'Sand River', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league3', 'periphery': 'W.o.T. Australia', 'name': 'Veracruz'}
+{'is_battle_offset': 'True', 'arena_name': 'Redshire', 'primetime': '12:00:00', 'front_id': 'dawn_of_industry_sg_league1', 'periphery': 'W.o.T. Hong Kong', 'name': 'Yanceys'}
+{'is_battle_offset': 'True', 'arena_name': 'Serene Coast', 'primetime': '08:00:00', 'front_id': 'dawn_of_industry_sg_league3', 'periphery': 'W.o.T. Australia', 'name': 'Tehuacán'}

@@ -71,5 +71,3 @@ if mode == "initial":
 elif mode == "update":
     for province in db_coll.distinct("province.neighbours.alias"): # Query DB for distinct province neighbours
         executor.submit(wotdata.updateprovince, (province)) # Call updateprovince
-
-print(str(time.time()) + ' DONE')
