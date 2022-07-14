@@ -3,6 +3,7 @@ import requests
 import json
 import pymongo
 import time
+import datetime
 import configparser
 import argparse
 import csv
@@ -13,7 +14,7 @@ default_region = "region_sea"
 default_mode = "update"
 conf_file = "config.ini"
 _type = "province"
-csv_header = ["alias", "turns_till_primetime",
+csv_header = ["timestamp","alias", "turns_till_primetime",
               "battles_running", "attackers_count", "owner"]
 
 # Class to hold Methods
@@ -38,7 +39,7 @@ class wotdata:
                         owner_tag = ''
                     else:
                         owner_tag = province_info['owner']['tag']
-                    writer.writerow([province, province_info['province']['turns_till_primetime'], province_info['province']['battles_running'],
+                    writer.writerow(datetime.now(),[province, province_info['province']['turns_till_primetime'], province_info['province']['battles_running'],
                                     province_info['province']['attackers_count'], owner_tag])
 
                     # province_info['province']['owner']['tag']
