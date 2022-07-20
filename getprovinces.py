@@ -13,6 +13,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from google.oauth2 import service_account
+import json
 
 # If modifying these scopes, delete the file token.json.
 # scopes = ['https://www.googleapis.com/auth/spreadsheets.readonly']
@@ -25,15 +26,17 @@ default_mode = "update"
 conf_file = "config.ini"
 _type = "province"
 header = ["alias", "timestamp", "turns_till_primetime",
-          "battles_running", "attackers_count", "owner"]
+          "battles_running", "attackers_count", "owner", "landing", "max attackers"]
 sheet_data = []
 sheet_data.append(header)
+province_data = []
 
 # Class to hold Methods
 
 
 class wotdata:
     def updateprovince(province):
+        # print(str(time.time()) + ' Started: ' + province)
         province_info_params = {'alias': province}
         # Get province info from uri_province_info
         province_info = requests.get(
@@ -44,10 +47,37 @@ class wotdata:
         if 'Province not found' not in str(province_info):
             db_coll.replace_one({'province.alias': province, '_type': _type},
                                 province_info, upsert=True)  # Upsert the response
-            if province_info['owner'] == None:
-                owner_tag = ''
-            else:
+            if province_info['owner']:
                 owner_tag = province_info['owner']['tag']
+            else:
+                owner_tag = ''
+            if province_info['province']['type']:
+                type_tag = province_info['province']['type']
+            else:
+                type_tag = ''
+            if province_info['province']['neighbours']:
+                neighbours = []
+                # neighbours = province_info['province']['neighbours']
+                for neighbour in province_info['province']['neighbours']:
+                    neighbour_data = {'province': neighbour['alias'],'owner': ""}
+                    # province_info['province']['neighbours']['neighbour['alias']']
+                    neighbours.append(neighbour_data)
+            else:
+                neighbours = ''
+
+            free_applications = 0
+            max_applications_number = 0
+            try:
+                max_applications_number = province_info['province']['max_applications_number']
+            except:
+                max_applications_number = 0  
+            if province_info['province']['free_applications']:
+                free_applications = province_info['province']['free_applications']
+
+
+
+            
+            # print("Province Type: " + type_tag)
 
             if sheets_mode == TRUE:
                 if mode == "update":
@@ -55,12 +85,92 @@ class wotdata:
                     global p_counter
 
                     sheet_data.append([province, province_info['timestamp'], province_info['province']['turns_till_primetime'], province_info['province']['battles_running'],
-                                       province_info['province']['attackers_count'], owner_tag])
+                                       province_info['province']['attackers_count'], owner_tag, type_tag,"MAX_ATTACKERS_HOLDING"])
+
+
+
+                    record_data = {'province': province, 'owner': owner_tag, 'type': type_tag, 'neighbours': neighbours, 'max_applications_number': max_applications_number,'free_applications': free_applications}
+                    province_data.append(record_data)
+
 
                     p_counter += 1
-                    # print(p_counter, "/", p_count)
+                    # At this point we have all provinces returned so we can do final processing
                     if p_counter == p_count:
-                        # print(json.dumps(sheet_data))
+                        # print(json.dumps(province_data))
+                        
+
+                        province_cleanup = {}
+                        for province_mod in province_data:
+                            # print("1 " + json.dumps(province_mod))
+                            province_n = province_mod['province']
+                            province_cleanup[str(province_n)] = province_mod
+                            # print(province_cleanup)
+
+                            for neighbour_mod in province_mod['neighbours']:
+                                # print("2 " + json.dumps(neighbour_mod))
+                                province_val = neighbour_mod['province']
+                                neighbour_owner = neighbour_mod['owner']
+                                # print("3 " + neighbour_owner)
+
+                        # Establish owners for each neighbour
+                        for province_c in province_cleanup:
+                            # print(province_c)
+                            owners = []
+                            i = 0
+                            for neighbour_c in province_cleanup[province_c]['neighbours']:
+                                p = province_cleanup[province_c]['neighbours'][i]['province']
+                                province_cleanup[province_c]['neighbours'][i]['owner'] = province_cleanup[p]['owner']
+                                if not province_cleanup[p]['owner'] == '':
+                                    owners.append(province_cleanup[p]['owner'])
+                                    # print(province_cleanup[p]['owner'])
+                                # print(province_cleanup[province_c]['neighbours'][i])
+                                if province_cleanup[province_c]['neighbours'][i]['owner'] == conf_clan_tag:
+                                    # print("MATCH")
+                                    # print(province_c)
+                                    province_cleanup[province_c]['type'] = "neighbour"
+                                    # print(province_cleanup[province_c]['type'])
+                                i += 1
+                            # print(owners)
+                            unique_owners = set(owners)
+                            # print(len(unique_owners))
+                            # print(unique_owners)
+                            province_cleanup[province_c]['unique_neighbour_owners'] = len(unique_owners)
+
+                        
+                        # print(json.dumps(province_cleanup))
+                        
+                        i1 = 0
+                        for sheet_data_row in sheet_data:
+                            i2 = 0
+                            # print("sheet_data_row " + str(sheet_data_row))
+                            max_attackers_province = sheet_data[i1][0]
+                            # print("MAX ATTACKERS PROVINCE " + str(max_attackers_province))
+                            # Item #5 is owning clan tag and item 6 is landing/auction battles, this is a bad hack but it will work for now
+                            if sheet_data[i1][5] != conf_clan_tag and i1 > 0:
+                                # print(sheet_data[i1])
+                                # print(province_cleanup[max_attackers_province]['type'])
+                                sheet_data[i1][6] = province_cleanup[max_attackers_province]['type']
+                            for sheet_data_row_item in sheet_data_row:
+                                # print(i2)
+                                # Find neighbours for this province if we are up to the max attackers field
+                                if sheet_data_row_item == "MAX_ATTACKERS_HOLDING":
+                                    max_attackers = province_cleanup[max_attackers_province]['unique_neighbour_owners'] + province_cleanup[max_attackers_province]['free_applications'] + province_cleanup[max_attackers_province]['max_applications_number']
+                                    sheet_data[i1][i2] = max_attackers
+                                # print(str(i2) + " sheet_data_row_item " + str(sheet_data[i1][i2]))
+                                i2 += 1
+                            i1 +=1
+
+                        # for sheet_data_row in sheet_data:
+                        #     print(sheet_data_row)
+                        #     for sheet_data_row_item in sheet_data_row:
+                        #         print(sheet_data_row_item)
+
+
+
+
+
+
+
                         print("Finished updating")
                         try:
                             service = build('sheets', 'v4', credentials=creds)
@@ -152,6 +262,7 @@ spreadsheet_range_name = conf_parser.get('global', 'spreadsheet_range_name')
 conf_battles_api = conf_parser.get('global', 'battles_api')
 conf_battles_spreadsheet_range_name = conf_parser.get(
     'global', 'battles_spreadsheet_range_name')
+conf_clan_tag = conf_parser.get('global', 'clan_tag')
 
 # Start real work
 print(str(time.time()) + ' STARTED, Region: ' + region + ' Mode: ' + mode)
@@ -172,6 +283,7 @@ if mode == "initial":
             province = element.lstrip("province_")
             # Call updateprovince
             executor.submit(wotdata.updateprovince, (province))
+            # wotdata.updateprovince, (province)
 elif mode == "update":
     # Query DB for distinct province neighbours
     province_list_alias = db_coll.distinct("province.neighbours.alias")
@@ -182,6 +294,7 @@ elif mode == "update":
     for province in province_list_alias:
         # Call updateprovince
         executor.submit(wotdata.updateprovince, (province))
+        # wotdata.updateprovince, (province)
 if sheets_mode == TRUE:
     battles_list = requests.get(url=conf_battles_api).json()
     # print(battles_list)
