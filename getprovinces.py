@@ -26,7 +26,7 @@ default_mode = "update"
 conf_file = "config.ini"
 _type = "province"
 header = ["alias", "timestamp", "turns_till_primetime",
-          "battles_running", "attackers_count", "owner", "landing", "max attackers"]
+          "battles_running", "attackers_count", "owner", "clan_opportunity", "max_attackers"]
 sheet_data = []
 sheet_data.append(header)
 province_data = []
@@ -70,9 +70,21 @@ class wotdata:
             try:
                 max_applications_number = province_info['province']['max_applications_number']
             except:
-                max_applications_number = 0  
+                # max_applications_number = 0
+                # iron_age_sg_league3 = 8 iron_age_sg_league2 = 16 iron_age_sg_league1 = 32
+                if province_info['province']['front_id'] == "iron_age_sg_league3":
+                    max_applications_number = 8
+                elif province_info['province']['front_id'] == "iron_age_sg_league2":
+                    max_applications_number = 16
+                else:
+                    max_applications_number = 0
             if province_info['province']['free_applications']:
                 free_applications = province_info['province']['free_applications']
+                if province_info['province']['front_id'] == "iron_age_sg_league1":
+                    free_applications = 0
+            if province_info['province']['front_id']:
+                front_id = province_info['province']['front_id']
+
 
 
 
