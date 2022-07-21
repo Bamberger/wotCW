@@ -57,6 +57,10 @@ class wotdata:
             if province_cleanup[province_c]['owner'] == conf_clan_tag:
                 province_cleanup[province_c]['type'] = "defender"
 
+            # If the province owner is in the owners item, remove it
+            if conf_clan_tag in owners:
+                owners.remove(conf_clan_tag)
+
             unique_owners = set(owners)
             province_cleanup[province_c]['unique_neighbour_owners'] = len(
                 unique_owners)
@@ -73,7 +77,6 @@ class wotdata:
                 # Find neighbours for this province if we are up to the max attackers field
                 if sheet_data_row_item == "MAX_ATTACKERS_HOLDING":
                     max_attackers = province_cleanup[max_attackers_province]['unique_neighbour_owners'] + \
-                        province_cleanup[max_attackers_province]['free_applications'] + \
                         province_cleanup[max_attackers_province]['max_applications_number']
                     sheet_data[idx1][idx2] = max_attackers
                 # print(str(idx2) + " sheet_data_row_item " + str(sheet_data[idx1][idx2]))
