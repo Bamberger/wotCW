@@ -35,6 +35,68 @@ province_data = []
 
 
 class wotdata:
+    def postprocess(province_info,sheet_data):
+
+        province_cleanup = {}
+        for province_mod in province_data:
+            province_n = province_mod['province']
+            province_cleanup[str(province_n)] = province_mod
+
+        # Establish owners for each neighbour
+        for province_c in province_cleanup:
+            owners = []
+            for idx, neighbour_c in enumerate(province_cleanup[province_c]['neighbours']):
+                p = province_cleanup[province_c]['neighbours'][idx]['province']
+                province_cleanup[province_c]['neighbours'][idx]['owner'] = province_cleanup[p]['owner']
+                if not province_cleanup[p]['owner'] == '':
+                    owners.append(province_cleanup[p]['owner'])
+                if province_cleanup[province_c]['neighbours'][idx]['owner'] == conf_clan_tag:
+                    province_cleanup[province_c]['type'] = "neighbour"
+
+
+            # TODO: I think we can check if we own the province here and mark as 'defender'
+            if province_cleanup[province_c]['owner'] == conf_clan_tag:
+                province_cleanup[province_c]['type'] = "defender"
+
+            unique_owners = set(owners)
+            province_cleanup[province_c]['unique_neighbour_owners'] = len(unique_owners)
+
+        
+        # print(json.dumps(province_cleanup))
+        
+        for idx1, sheet_data_row in enumerate(sheet_data):
+            # print("sheet_data_row " + str(sheet_data_row))
+            max_attackers_province = sheet_data[idx1][0]
+            # Item #6 is landing/auction battles, this is a bad hack but it will work for now
+            if idx1 > 0:
+                sheet_data[idx1][6] = province_cleanup[max_attackers_province]['type']
+            for idx2, sheet_data_row_item in enumerate(sheet_data_row):
+                # Find neighbours for this province if we are up to the max attackers field
+                if sheet_data_row_item == "MAX_ATTACKERS_HOLDING":
+                    max_attackers = province_cleanup[max_attackers_province]['unique_neighbour_owners'] + province_cleanup[max_attackers_province]['free_applications'] + province_cleanup[max_attackers_province]['max_applications_number']
+                    sheet_data[idx1][idx2] = max_attackers
+                # print(str(idx2) + " sheet_data_row_item " + str(sheet_data[idx1][idx2]))
+
+        print("Finished updating")
+        try:
+            service = build('sheets', 'v4', credentials=creds)
+            spreadsheet_row = spreadsheet_range_name
+
+            values = sheet_data
+            body = {
+                'values': values
+            }
+            result = service.spreadsheets().values().update(
+                spreadsheetId=spreadsheet_id, range=spreadsheet_row,
+                valueInputOption="RAW", body=body).execute()
+            print(str(time.time()) + " Post-processing complete, " +f"{result.get('updatedCells')} cells updated on sheet: " + str(spreadsheet_row))
+            return result
+        except HttpError as error:
+            print(f"An error occurred: {error}")
+            return error
+
+
+
     def updateprovince(province):
         # print(str(time.time()) + ' Started: ' + province)
         province_info_params = {'alias': province}
@@ -80,6 +142,8 @@ class wotdata:
                 if province_info['province']['front_id'] == "iron_age_sg_league1":
                     free_applications = 0
 
+            print(str(time.time()) + ' Completed: ' + province)
+
             if sheets_mode == TRUE:
                 if mode == "update":
                     global p_count
@@ -96,66 +160,11 @@ class wotdata:
 
                     p_counter += 1
                     # At this point we have all provinces returned so we can do final processing, yes this is a bad hack
-                    if p_counter == p_count:                      
+                    if p_counter == p_count:
 
-                        province_cleanup = {}
-                        for province_mod in province_data:
-                            province_n = province_mod['province']
-                            province_cleanup[str(province_n)] = province_mod
+                        print(str(time.time()) + ' Commencing post-processing')
+                        wotdata.postprocess(province_data,sheet_data)        
 
-                        # Establish owners for each neighbour
-                        for province_c in province_cleanup:
-                            owners = []
-                            for idx, neighbour_c in enumerate(province_cleanup[province_c]['neighbours']):
-                                p = province_cleanup[province_c]['neighbours'][idx]['province']
-                                province_cleanup[province_c]['neighbours'][idx]['owner'] = province_cleanup[p]['owner']
-                                if not province_cleanup[p]['owner'] == '':
-                                    owners.append(province_cleanup[p]['owner'])
-                                if province_cleanup[province_c]['neighbours'][idx]['owner'] == conf_clan_tag:
-                                    province_cleanup[province_c]['type'] = "neighbour"
-
-
-                            # TODO: I think we can check if we own the province here and mark as 'defender'
-                            if province_cleanup[province_c]['owner'] == conf_clan_tag:
-                                province_cleanup[province_c]['type'] = "defender"
-
-                            unique_owners = set(owners)
-                            province_cleanup[province_c]['unique_neighbour_owners'] = len(unique_owners)
-
-                        
-                        # print(json.dumps(province_cleanup))
-                        
-                        for idx1, sheet_data_row in enumerate(sheet_data):
-                            # print("sheet_data_row " + str(sheet_data_row))
-                            max_attackers_province = sheet_data[idx1][0]
-                            # Item #6 is landing/auction battles, this is a bad hack but it will work for now
-                            if idx1 > 0:
-                                sheet_data[idx1][6] = province_cleanup[max_attackers_province]['type']
-                            for idx2, sheet_data_row_item in enumerate(sheet_data_row):
-                                # Find neighbours for this province if we are up to the max attackers field
-                                if sheet_data_row_item == "MAX_ATTACKERS_HOLDING":
-                                    max_attackers = province_cleanup[max_attackers_province]['unique_neighbour_owners'] + province_cleanup[max_attackers_province]['free_applications'] + province_cleanup[max_attackers_province]['max_applications_number']
-                                    sheet_data[idx1][idx2] = max_attackers
-                                # print(str(idx2) + " sheet_data_row_item " + str(sheet_data[idx1][idx2]))
-
-                        print("Finished updating")
-                        try:
-                            service = build('sheets', 'v4', credentials=creds)
-                            spreadsheet_row = spreadsheet_range_name
-
-                            values = sheet_data
-                            body = {
-                                'values': values
-                            }
-                            result = service.spreadsheets().values().update(
-                                spreadsheetId=spreadsheet_id, range=spreadsheet_row,
-                                valueInputOption="RAW", body=body).execute()
-                            print(f"{result.get('updatedCells')} cells updated.")
-                            return result
-                        except HttpError as error:
-                            print(f"An error occurred: {error}")
-                            return error
-            print(str(time.time()) + ' Completed: ' + province)
         else:
             print(str(time.time()) + ' Skipped: ' + province)
 
