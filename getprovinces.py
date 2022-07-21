@@ -35,7 +35,7 @@ province_data = []
 
 
 class wotdata:
-    def postprocess(province_info,sheet_data):
+    def postprocess(province_info, sheet_data):
 
         province_cleanup = {}
         for province_mod in province_data:
@@ -53,17 +53,16 @@ class wotdata:
                 if province_cleanup[province_c]['neighbours'][idx]['owner'] == conf_clan_tag:
                     province_cleanup[province_c]['type'] = "neighbour"
 
-
             # TODO: I think we can check if we own the province here and mark as 'defender'
             if province_cleanup[province_c]['owner'] == conf_clan_tag:
                 province_cleanup[province_c]['type'] = "defender"
 
             unique_owners = set(owners)
-            province_cleanup[province_c]['unique_neighbour_owners'] = len(unique_owners)
+            province_cleanup[province_c]['unique_neighbour_owners'] = len(
+                unique_owners)
 
-        
         # print(json.dumps(province_cleanup))
-        
+
         for idx1, sheet_data_row in enumerate(sheet_data):
             # print("sheet_data_row " + str(sheet_data_row))
             max_attackers_province = sheet_data[idx1][0]
@@ -73,7 +72,9 @@ class wotdata:
             for idx2, sheet_data_row_item in enumerate(sheet_data_row):
                 # Find neighbours for this province if we are up to the max attackers field
                 if sheet_data_row_item == "MAX_ATTACKERS_HOLDING":
-                    max_attackers = province_cleanup[max_attackers_province]['unique_neighbour_owners'] + province_cleanup[max_attackers_province]['free_applications'] + province_cleanup[max_attackers_province]['max_applications_number']
+                    max_attackers = province_cleanup[max_attackers_province]['unique_neighbour_owners'] + \
+                        province_cleanup[max_attackers_province]['free_applications'] + \
+                        province_cleanup[max_attackers_province]['max_applications_number']
                     sheet_data[idx1][idx2] = max_attackers
                 # print(str(idx2) + " sheet_data_row_item " + str(sheet_data[idx1][idx2]))
 
@@ -89,13 +90,12 @@ class wotdata:
             result = service.spreadsheets().values().update(
                 spreadsheetId=spreadsheet_id, range=spreadsheet_row,
                 valueInputOption="RAW", body=body).execute()
-            print(str(time.time()) + " Post-processing complete, " +f"{result.get('updatedCells')} cells updated on sheet: " + str(spreadsheet_row))
+            print(str(time.time()) + " Post-processing complete, " +
+                  f"{result.get('updatedCells')} cells updated on sheet: " + str(spreadsheet_row))
             return result
         except HttpError as error:
             print(f"An error occurred: {error}")
             return error
-
-
 
     def updateprovince(province):
         # print(str(time.time()) + ' Started: ' + province)
@@ -120,7 +120,8 @@ class wotdata:
             if province_info['province']['neighbours']:
                 neighbours = []
                 for neighbour in province_info['province']['neighbours']:
-                    neighbour_data = {'province': neighbour['alias'],'owner': ""}
+                    neighbour_data = {
+                        'province': neighbour['alias'], 'owner': ""}
                     neighbours.append(neighbour_data)
             else:
                 neighbours = ''
@@ -150,20 +151,18 @@ class wotdata:
                     global p_counter
 
                     sheet_data.append([province, province_info['timestamp'], province_info['province']['turns_till_primetime'], province_info['province']['battles_running'],
-                                       province_info['province']['attackers_count'], owner_tag, type_tag,"MAX_ATTACKERS_HOLDING"])
+                                       province_info['province']['attackers_count'], owner_tag, type_tag, "MAX_ATTACKERS_HOLDING"])
 
-
-
-                    record_data = {'province': province, 'owner': owner_tag, 'type': type_tag, 'neighbours': neighbours, 'max_applications_number': max_applications_number,'free_applications': free_applications}
+                    record_data = {'province': province, 'owner': owner_tag, 'type': type_tag, 'neighbours': neighbours,
+                                   'max_applications_number': max_applications_number, 'free_applications': free_applications}
                     province_data.append(record_data)
-
 
                     p_counter += 1
                     # At this point we have all provinces returned so we can do final processing, yes this is a bad hack
                     if p_counter == p_count:
 
                         print(str(time.time()) + ' Commencing post-processing')
-                        wotdata.postprocess(province_data,sheet_data)        
+                        wotdata.postprocess(province_data, sheet_data)
 
         else:
             print(str(time.time()) + ' Skipped: ' + province)
