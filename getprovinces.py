@@ -49,7 +49,8 @@ class wotdata:
                 p = province_cleanup[province_c]['neighbours'][idx]['province']
                 province_cleanup[province_c]['neighbours'][idx]['owner'] = province_cleanup[p]['owner']
                 if not province_cleanup[p]['owner'] == '':
-                    owners.append(province_cleanup[p]['owner'])
+                    if province_cleanup[p]['owner'] not in owners:
+                        owners.append(province_cleanup[p]['owner'])
                 if province_cleanup[province_c]['neighbours'][idx]['owner'] == conf_clan_tag:
                     province_cleanup[province_c]['type'] = "neighbour"
 
@@ -59,11 +60,13 @@ class wotdata:
 
             # If the province owner is in the owners item, remove it
             if conf_clan_tag in owners:
+                print("Found clan tag in owners for province: " + province_c)
+                owners.remove(conf_clan_tag)
+            if "" in owners:
                 owners.remove(conf_clan_tag)
 
-            unique_owners = set(owners)
             province_cleanup[province_c]['unique_neighbour_owners'] = len(
-                unique_owners)
+                owners)
 
         # print(json.dumps(province_cleanup))
 
