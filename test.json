@@ -1,38 +1,16 @@
 {
-    "aracaju": {
-        "province": "aracaju",
-        "owner": "",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "arapiraca",
-                "owner": "GNS"
-            },
-            {
-                "province": "conceicaodocoite",
-                "owner": ""
-            },
-            {
-                "province": "pauloafonso",
-                "owner": "PANDA"
-            }
-        ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 2
-    },
     "altafloresta": {
         "province": "altafloresta",
-        "owner": "SOTE",
-        "type": "",
+        "owner": "",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "aldeiapiaracu",
-                "owner": "DRANK"
+                "owner": "IMPCT"
             },
             {
                 "province": "cachoeiradaserra",
-                "owner": "IMPCT"
+                "owner": ""
             },
             {
                 "province": "colider",
@@ -55,174 +33,40 @@
                 "owner": "DRANK"
             }
         ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 3
-    },
-    "apui": {
-        "province": "apui",
-        "owner": "FISTS",
-        "type": "landing",
-        "neighbours": [
-            {
-                "province": "auxiliadora",
-                "owner": ""
-            },
-            {
-                "province": "barradesaomanoel",
-                "owner": "DRANK"
-            },
-            {
-                "province": "bocadomoreru",
-                "owner": "DRANK"
-            },
-            {
-                "province": "novoaripuana",
-                "owner": "S_A_S"
-            },
-            {
-                "province": "santoantoniodomatupi",
-                "owner": "DRANK"
-            },
-            {
-                "province": "vilameriti",
-                "owner": "RGZ"
-            }
-        ],
         "max_applications_number": 32,
         "free_applications": 0,
         "unique_neighbour_owners": 3
     },
-    "altoalegre": {
-        "province": "altoalegre",
-        "owner": "EMPIR",
-        "type": "auction",
-        "neighbours": [
-            {
-                "province": "pirilandia",
-                "owner": "HO-PE"
-            },
-            {
-                "province": "santaelenadeuairen",
-                "owner": "PLA-2"
-            },
-            {
-                "province": "uiaiacas",
-                "owner": "NSND"
-            }
-        ],
-        "max_applications_number": 16,
-        "free_applications": 8,
-        "unique_neighbour_owners": 3
-    },
-    "amargosavalley": {
-        "province": "amargosavalley",
-        "owner": "LEM0N",
-        "type": "defender",
-        "neighbours": [
-            {
-                "province": "adaven",
-                "owner": "SEKAI"
-            },
-            {
-                "province": "caliente",
-                "owner": "LEM0N"
-            },
-            {
-                "province": "timbisha",
-                "owner": "DRANK"
-            },
-            {
-                "province": "tonopah",
-                "owner": "PANDA"
-            }
-        ],
-        "max_applications_number": 8,
-        "free_applications": 4,
-        "unique_neighbour_owners": 4
-    },
-    "adaven": {
-        "province": "adaven",
-        "owner": "SEKAI",
-        "type": "neighbour",
-        "neighbours": [
-            {
-                "province": "amargosavalley",
-                "owner": "LEM0N"
-            },
-            {
-                "province": "caliente",
-                "owner": "LEM0N"
-            },
-            {
-                "province": "pioche",
-                "owner": "NSND"
-            },
-            {
-                "province": "tonopah",
-                "owner": "PANDA"
-            }
-        ],
-        "max_applications_number": 8,
-        "free_applications": 4,
-        "unique_neighbour_owners": 3
-    },
-    "almas": {
-        "province": "almas",
-        "owner": "CHN",
+    "altamira": {
+        "province": "altamira",
+        "owner": "STRV",
         "type": "",
         "neighbours": [
             {
-                "province": "corrente",
+                "province": "pacaja",
+                "owner": "L1ME"
+            },
+            {
+                "province": "placas",
+                "owner": "CAPA"
+            },
+            {
+                "province": "teimoso",
                 "owner": "STRV"
-            },
-            {
-                "province": "novoacordo",
-                "owner": "CHN"
-            },
-            {
-                "province": "palmas",
-                "owner": "TENT"
-            },
-            {
-                "province": "portonacional",
-                "owner": "TENT"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
         "unique_neighbour_owners": 3
     },
-    "amazonnationalforest": {
-        "province": "amazonnationalforest",
-        "owner": "LEM0N",
-        "type": "defender",
-        "neighbours": [
-            {
-                "province": "pirilandia",
-                "owner": "HO-PE"
-            },
-            {
-                "province": "uiaiacas",
-                "owner": "NSND"
-            },
-            {
-                "province": "yanomamisettlement",
-                "owner": "LEM0N"
-            }
-        ],
-        "max_applications_number": 16,
-        "free_applications": 8,
-        "unique_neighbour_owners": 3
-    },
     "aldeiapiaracu": {
         "province": "aldeiapiaracu",
-        "owner": "DRANK",
+        "owner": "IMPCT",
         "type": "",
         "neighbours": [
             {
                 "province": "altafloresta",
-                "owner": "SOTE"
+                "owner": ""
             },
             {
                 "province": "brazilianairforcedetachment",
@@ -230,7 +74,7 @@
             },
             {
                 "province": "cachoeiradaserra",
-                "owner": "IMPCT"
+                "owner": ""
             },
             {
                 "province": "colider",
@@ -250,34 +94,190 @@
             },
             {
                 "province": "vilarica",
-                "owner": "DUAL"
+                "owner": "STRV"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 7
+        "unique_neighbour_owners": 5
     },
-    "altamira": {
-        "province": "altamira",
-        "owner": "STRV",
+    "altoalegre": {
+        "province": "altoalegre",
+        "owner": "GNS",
+        "type": "neighbour",
+        "neighbours": [
+            {
+                "province": "pirilandia",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "santaelenadeuairen",
+                "owner": "PLA-2"
+            },
+            {
+                "province": "uiaiacas",
+                "owner": ""
+            }
+        ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 1
+    },
+    "adaven": {
+        "province": "adaven",
+        "owner": "LEM0N",
+        "type": "defender",
+        "neighbours": [
+            {
+                "province": "amargosavalley",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "caliente",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "pioche",
+                "owner": "EMPIR"
+            },
+            {
+                "province": "tonopah",
+                "owner": "DRANK"
+            }
+        ],
+        "max_applications_number": 8,
+        "free_applications": 4,
+        "unique_neighbour_owners": 3
+    },
+    "amargosavalley": {
+        "province": "amargosavalley",
+        "owner": "LEM0N",
+        "type": "defender",
+        "neighbours": [
+            {
+                "province": "adaven",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "caliente",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "timbisha",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "tonopah",
+                "owner": "DRANK"
+            }
+        ],
+        "max_applications_number": 8,
+        "free_applications": 4,
+        "unique_neighbour_owners": 2
+    },
+    "almas": {
+        "province": "almas",
+        "owner": "TENT",
         "type": "landing",
         "neighbours": [
             {
-                "province": "pacaja",
-                "owner": "NSND"
-            },
-            {
-                "province": "placas",
+                "province": "corrente",
                 "owner": "STRV"
             },
             {
-                "province": "teimoso",
-                "owner": "CAPA"
+                "province": "novoacordo",
+                "owner": "CHN"
+            },
+            {
+                "province": "palmas",
+                "owner": "BCRT"
+            },
+            {
+                "province": "portonacional",
+                "owner": "TENT"
             }
         ],
         "max_applications_number": 32,
         "free_applications": 0,
-        "unique_neighbour_owners": 3
+        "unique_neighbour_owners": 4
+    },
+    "apui": {
+        "province": "apui",
+        "owner": "FISTS",
+        "type": "landing",
+        "neighbours": [
+            {
+                "province": "auxiliadora",
+                "owner": "10086"
+            },
+            {
+                "province": "barradesaomanoel",
+                "owner": "DRANK"
+            },
+            {
+                "province": "bocadomoreru",
+                "owner": "DRANK"
+            },
+            {
+                "province": "novoaripuana",
+                "owner": "S_A_S"
+            },
+            {
+                "province": "santoantoniodomatupi",
+                "owner": "DRANK"
+            },
+            {
+                "province": "vilameriti",
+                "owner": "DOLL"
+            }
+        ],
+        "max_applications_number": 32,
+        "free_applications": 0,
+        "unique_neighbour_owners": 4
+    },
+    "aracaju": {
+        "province": "aracaju",
+        "owner": "",
+        "type": "landing",
+        "neighbours": [
+            {
+                "province": "arapiraca",
+                "owner": "L1ME"
+            },
+            {
+                "province": "conceicaodocoite",
+                "owner": ""
+            },
+            {
+                "province": "pauloafonso",
+                "owner": "PANDA"
+            }
+        ],
+        "max_applications_number": 32,
+        "free_applications": 0,
+        "unique_neighbour_owners": 2
+    },
+    "amazonnationalforest": {
+        "province": "amazonnationalforest",
+        "owner": "LEM0N",
+        "type": "defender",
+        "neighbours": [
+            {
+                "province": "pirilandia",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "uiaiacas",
+                "owner": ""
+            },
+            {
+                "province": "yanomamisettlement",
+                "owner": "LEM0N"
+            }
+        ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 1
     },
     "araguaina": {
         "province": "araguaina",
@@ -286,15 +286,15 @@
         "neighbours": [
             {
                 "province": "camposlindos",
-                "owner": "IMPCT"
+                "owner": "DOVE"
             },
             {
                 "province": "colinasdotocantins",
-                "owner": "CHN"
+                "owner": "TENT"
             },
             {
                 "province": "eldoradodoscarajas",
-                "owner": "ICPD"
+                "owner": "IMPCT"
             },
             {
                 "province": "estreito",
@@ -302,11 +302,11 @@
             },
             {
                 "province": "imperatriz",
-                "owner": "VOZ"
+                "owner": ""
             },
             {
                 "province": "redencao",
-                "owner": "IMPCT"
+                "owner": "CBMB"
             }
         ],
         "max_applications_number": 0,
@@ -315,7 +315,7 @@
     },
     "arapiraca": {
         "province": "arapiraca",
-        "owner": "GNS",
+        "owner": "L1ME",
         "type": "",
         "neighbours": [
             {
@@ -324,11 +324,11 @@
             },
             {
                 "province": "belojardim",
-                "owner": "SEKAI"
+                "owner": "DOVE"
             },
             {
                 "province": "maceio",
-                "owner": "VOZ"
+                "owner": ""
             },
             {
                 "province": "pauloafonso",
@@ -336,21 +336,21 @@
             },
             {
                 "province": "serratalhada",
-                "owner": "L1ME"
+                "owner": "PANDA"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 2
     },
     "araripina": {
         "province": "araripina",
         "owner": "L1ME",
-        "type": "",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "casanova",
-                "owner": "ESA"
+                "owner": "L1ME"
             },
             {
                 "province": "juazeirodonorte",
@@ -366,21 +366,21 @@
             },
             {
                 "province": "salgueiro",
-                "owner": "-1AR-"
+                "owner": "L1ME"
             },
             {
                 "province": "taua",
                 "owner": "CAPA"
             }
         ],
-        "max_applications_number": 0,
+        "max_applications_number": 32,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 3
     },
     "auxiliadora": {
         "province": "auxiliadora",
-        "owner": "",
-        "type": "",
+        "owner": "10086",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "apui",
@@ -388,11 +388,11 @@
             },
             {
                 "province": "humaita",
-                "owner": ""
+                "owner": "IMPCT"
             },
             {
                 "province": "machadinhodoeste",
-                "owner": "10086"
+                "owner": "STRV"
             },
             {
                 "province": "novoaripuana",
@@ -407,14 +407,44 @@
                 "owner": "IMPCT"
             }
         ],
-        "max_applications_number": 0,
+        "max_applications_number": 32,
         "free_applications": 0,
         "unique_neighbour_owners": 5
+    },
+    "balsas": {
+        "province": "balsas",
+        "owner": "L1ME",
+        "type": "",
+        "neighbours": [
+            {
+                "province": "camposlindos",
+                "owner": "DOVE"
+            },
+            {
+                "province": "colinas",
+                "owner": "IMPCT"
+            },
+            {
+                "province": "estreito",
+                "owner": "IMPCT"
+            },
+            {
+                "province": "gilbues",
+                "owner": "DOLL"
+            },
+            {
+                "province": "urucui",
+                "owner": "ESA"
+            }
+        ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 4
     },
     "aripuana": {
         "province": "aripuana",
         "owner": "CHN",
-        "type": "landing",
+        "type": "",
         "neighbours": [
             {
                 "province": "colniza",
@@ -430,102 +460,12 @@
             },
             {
                 "province": "juina",
-                "owner": "LIHKG"
-            }
-        ],
-        "max_applications_number": 32,
-        "free_applications": 0,
-        "unique_neighbour_owners": 3
-    },
-    "bacabal": {
-        "province": "bacabal",
-        "owner": "ESLMN",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "barradocorda",
-                "owner": "DOLL"
-            },
-            {
-                "province": "buriticupu",
-                "owner": "DOLL"
-            },
-            {
-                "province": "caxias",
-                "owner": "ESLMN"
-            },
-            {
-                "province": "saoluis",
-                "owner": "VOZ"
+                "owner": "IMPCT"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
         "unique_neighbour_owners": 3
-    },
-    "balsas": {
-        "province": "balsas",
-        "owner": "PANDA",
-        "type": "landing",
-        "neighbours": [
-            {
-                "province": "camposlindos",
-                "owner": "IMPCT"
-            },
-            {
-                "province": "colinas",
-                "owner": "DRANK"
-            },
-            {
-                "province": "estreito",
-                "owner": "IMPCT"
-            },
-            {
-                "province": "gilbues",
-                "owner": "N-W-O"
-            },
-            {
-                "province": "urucui",
-                "owner": "L1ME"
-            }
-        ],
-        "max_applications_number": 32,
-        "free_applications": 0,
-        "unique_neighbour_owners": 4
-    },
-    "barradesaomanoel": {
-        "province": "barradesaomanoel",
-        "owner": "DRANK",
-        "type": "landing",
-        "neighbours": [
-            {
-                "province": "apui",
-                "owner": "FISTS"
-            },
-            {
-                "province": "bocadomoreru",
-                "owner": "DRANK"
-            },
-            {
-                "province": "garimpo",
-                "owner": ""
-            },
-            {
-                "province": "jacareacanga",
-                "owner": "GYM"
-            },
-            {
-                "province": "kururuzinho",
-                "owner": "ICPD"
-            },
-            {
-                "province": "vilameriti",
-                "owner": "RGZ"
-            }
-        ],
-        "max_applications_number": 32,
-        "free_applications": 0,
-        "unique_neighbour_owners": 5
     },
     "arauca": {
         "province": "arauca",
@@ -538,11 +478,11 @@
             },
             {
                 "province": "puertocarreno",
-                "owner": "PANDA"
+                "owner": ""
             },
             {
                 "province": "saravena",
-                "owner": ""
+                "owner": "HO-PE"
             },
             {
                 "province": "yopal",
@@ -553,10 +493,70 @@
         "free_applications": 8,
         "unique_neighbour_owners": 2
     },
+    "bacabal": {
+        "province": "bacabal",
+        "owner": "ESLMN",
+        "type": "landing",
+        "neighbours": [
+            {
+                "province": "barradocorda",
+                "owner": "DOLL"
+            },
+            {
+                "province": "buriticupu",
+                "owner": "ESLMN"
+            },
+            {
+                "province": "caxias",
+                "owner": "DOLL"
+            },
+            {
+                "province": "saoluis",
+                "owner": "ESLMN"
+            }
+        ],
+        "max_applications_number": 32,
+        "free_applications": 0,
+        "unique_neighbour_owners": 2
+    },
+    "barradesaomanoel": {
+        "province": "barradesaomanoel",
+        "owner": "DRANK",
+        "type": "",
+        "neighbours": [
+            {
+                "province": "apui",
+                "owner": "FISTS"
+            },
+            {
+                "province": "bocadomoreru",
+                "owner": "DRANK"
+            },
+            {
+                "province": "garimpo",
+                "owner": "IMPCT"
+            },
+            {
+                "province": "jacareacanga",
+                "owner": "RGZ"
+            },
+            {
+                "province": "kururuzinho",
+                "owner": "CHN"
+            },
+            {
+                "province": "vilameriti",
+                "owner": "DOLL"
+            }
+        ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 6
+    },
     "barradocorda": {
         "province": "barradocorda",
         "owner": "DOLL",
-        "type": "landing",
+        "type": "",
         "neighbours": [
             {
                 "province": "bacabal",
@@ -564,15 +564,15 @@
             },
             {
                 "province": "buriticupu",
-                "owner": "DOLL"
-            },
-            {
-                "province": "caxias",
                 "owner": "ESLMN"
             },
             {
+                "province": "caxias",
+                "owner": "DOLL"
+            },
+            {
                 "province": "colinas",
-                "owner": "DRANK"
+                "owner": "IMPCT"
             },
             {
                 "province": "grajau",
@@ -580,47 +580,51 @@
             },
             {
                 "province": "parnarama",
-                "owner": "_KZ"
-            }
-        ],
-        "max_applications_number": 32,
-        "free_applications": 0,
-        "unique_neighbour_owners": 4
-    },
-    "belojardim": {
-        "province": "belojardim",
-        "owner": "SEKAI",
-        "type": "landing",
-        "neighbours": [
-            {
-                "province": "arapiraca",
-                "owner": "GNS"
-            },
-            {
-                "province": "maceio",
-                "owner": "VOZ"
-            },
-            {
-                "province": "patos",
-                "owner": "NSND"
-            },
-            {
-                "province": "recife",
-                "owner": "N-W-O"
-            },
-            {
-                "province": "serratalhada",
                 "owner": "L1ME"
             }
         ],
-        "max_applications_number": 32,
+        "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 5
+        "unique_neighbour_owners": 4
+    },
+    "barrancominas": {
+        "province": "barrancominas",
+        "owner": "T7F",
+        "type": "auction",
+        "neighbours": [
+            {
+                "province": "mitu",
+                "owner": "PANDA"
+            },
+            {
+                "province": "orocue",
+                "owner": ""
+            },
+            {
+                "province": "puertocarreno",
+                "owner": ""
+            },
+            {
+                "province": "puertoprincipe",
+                "owner": ""
+            },
+            {
+                "province": "sancarlosderionegro",
+                "owner": "DUAL"
+            },
+            {
+                "province": "sanfernandodeatabapo",
+                "owner": "GNS"
+            }
+        ],
+        "max_applications_number": 16,
+        "free_applications": 8,
+        "unique_neighbour_owners": 3
     },
     "bocadomoreru": {
         "province": "bocadomoreru",
         "owner": "DRANK",
-        "type": "landing",
+        "type": "",
         "neighbours": [
             {
                 "province": "apui",
@@ -640,14 +644,44 @@
             },
             {
                 "province": "kururuzinho",
-                "owner": "ICPD"
+                "owner": "CHN"
             },
             {
                 "province": "santoantoniodomatupi",
                 "owner": "DRANK"
             }
         ],
-        "max_applications_number": 32,
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 3
+    },
+    "belojardim": {
+        "province": "belojardim",
+        "owner": "DOVE",
+        "type": "",
+        "neighbours": [
+            {
+                "province": "arapiraca",
+                "owner": "L1ME"
+            },
+            {
+                "province": "maceio",
+                "owner": ""
+            },
+            {
+                "province": "patos",
+                "owner": "PLA-2"
+            },
+            {
+                "province": "recife",
+                "owner": "SEKAI"
+            },
+            {
+                "province": "serratalhada",
+                "owner": "PANDA"
+            }
+        ],
+        "max_applications_number": 0,
         "free_applications": 0,
         "unique_neighbour_owners": 4
     },
@@ -658,7 +692,7 @@
         "neighbours": [
             {
                 "province": "ladorada",
-                "owner": "_KZ"
+                "owner": "DRANK"
             },
             {
                 "province": "manizales",
@@ -670,7 +704,7 @@
             },
             {
                 "province": "saldana",
-                "owner": "GNS"
+                "owner": "FISTS"
             },
             {
                 "province": "tunja",
@@ -678,47 +712,39 @@
             },
             {
                 "province": "villavicencio",
-                "owner": "CHN"
+                "owner": "DRANK"
             }
         ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 5
+        "max_applications_number": 16,
+        "free_applications": 8,
+        "unique_neighbour_owners": 3
     },
-    "bomjesus": {
-        "province": "bomjesus",
-        "owner": "L1ME",
+    "brazilianairforcedetachment": {
+        "province": "brazilianairforcedetachment",
+        "owner": "DRANK",
         "type": "landing",
         "neighbours": [
             {
-                "province": "buritirama",
-                "owner": "DOLL"
+                "province": "aldeiapiaracu",
+                "owner": "IMPCT"
             },
             {
-                "province": "gilbues",
-                "owner": "N-W-O"
+                "province": "colider",
+                "owner": "TENT"
             },
             {
-                "province": "remanso",
-                "owner": "DOLL"
-            },
-            {
-                "province": "saoraimundononato",
-                "owner": "ESA"
-            },
-            {
-                "province": "urucui",
-                "owner": "L1ME"
+                "province": "confresa",
+                "owner": "STRV"
             }
         ],
         "max_applications_number": 32,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 3
     },
     "borba": {
         "province": "borba",
         "owner": "FISTS",
-        "type": "landing",
+        "type": "",
         "neighbours": [
             {
                 "province": "manacapuru",
@@ -734,11 +760,97 @@
             },
             {
                 "province": "varrevento",
-                "owner": "DOLL"
+                "owner": "OPAYA"
             },
             {
                 "province": "vilameriti",
-                "owner": "RGZ"
+                "owner": "DOLL"
+            }
+        ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 3
+    },
+    "bomjesus": {
+        "province": "bomjesus",
+        "owner": "L1ME",
+        "type": "",
+        "neighbours": [
+            {
+                "province": "buritirama",
+                "owner": "STRV"
+            },
+            {
+                "province": "gilbues",
+                "owner": "DOLL"
+            },
+            {
+                "province": "remanso",
+                "owner": "DOLL"
+            },
+            {
+                "province": "saoraimundononato",
+                "owner": "ESA"
+            },
+            {
+                "province": "urucui",
+                "owner": "ESA"
+            }
+        ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 3
+    },
+    "buenaventura": {
+        "province": "buenaventura",
+        "owner": "T7F",
+        "type": "neighbour",
+        "neighbours": [
+            {
+                "province": "cali",
+                "owner": "DRANK"
+            },
+            {
+                "province": "manizales",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "popayan",
+                "owner": "DRANK"
+            },
+            {
+                "province": "quibdo",
+                "owner": "DOLL"
+            }
+        ],
+        "max_applications_number": 16,
+        "free_applications": 8,
+        "unique_neighbour_owners": 2
+    },
+    "buritirama": {
+        "province": "buritirama",
+        "owner": "STRV",
+        "type": "landing",
+        "neighbours": [
+            {
+                "province": "bomjesus",
+                "owner": "L1ME"
+            },
+            {
+                "province": "corrente",
+                "owner": "STRV"
+            },
+            {
+                "province": "gilbues",
+                "owner": "DOLL"
+            },
+            {
+                "province": "remanso",
+                "owner": "DOLL"
+            },
+            {
+                "province": "xiquexique",
+                "owner": "DOLL"
             }
         ],
         "max_applications_number": 32,
@@ -747,8 +859,8 @@
     },
     "buriticupu": {
         "province": "buriticupu",
-        "owner": "DOLL",
-        "type": "",
+        "owner": "ESLMN",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "bacabal",
@@ -768,124 +880,12 @@
             },
             {
                 "province": "imperatriz",
-                "owner": "VOZ"
-            }
-        ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 3
-    },
-    "buenaventura": {
-        "province": "buenaventura",
-        "owner": "T7F",
-        "type": "neighbour",
-        "neighbours": [
-            {
-                "province": "cali",
-                "owner": "TENT"
-            },
-            {
-                "province": "manizales",
-                "owner": "LEM0N"
-            },
-            {
-                "province": "popayan",
-                "owner": "DRANK"
-            },
-            {
-                "province": "quibdo",
-                "owner": "DOLL"
-            }
-        ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 4
-    },
-    "barrancominas": {
-        "province": "barrancominas",
-        "owner": "T7F",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "mitu",
-                "owner": "GNS"
-            },
-            {
-                "province": "orocue",
-                "owner": ""
-            },
-            {
-                "province": "puertocarreno",
-                "owner": "PANDA"
-            },
-            {
-                "province": "puertoprincipe",
-                "owner": "DOLL"
-            },
-            {
-                "province": "sancarlosderionegro",
-                "owner": "PLA-2"
-            },
-            {
-                "province": "sanfernandodeatabapo",
-                "owner": "GNS"
-            }
-        ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 4
-    },
-    "buritirama": {
-        "province": "buritirama",
-        "owner": "DOLL",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "bomjesus",
-                "owner": "L1ME"
-            },
-            {
-                "province": "corrente",
-                "owner": "STRV"
-            },
-            {
-                "province": "gilbues",
-                "owner": "N-W-O"
-            },
-            {
-                "province": "remanso",
-                "owner": "DOLL"
-            },
-            {
-                "province": "xiquexique",
                 "owner": ""
             }
         ],
-        "max_applications_number": 0,
+        "max_applications_number": 32,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
-    },
-    "brazilianairforcedetachment": {
-        "province": "brazilianairforcedetachment",
-        "owner": "DRANK",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "aldeiapiaracu",
-                "owner": "DRANK"
-            },
-            {
-                "province": "colider",
-                "owner": "TENT"
-            },
-            {
-                "province": "confresa",
-                "owner": "STRV"
-            }
-        ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 3
+        "unique_neighbour_owners": 2
     },
     "cabuyaro": {
         "province": "cabuyaro",
@@ -906,11 +906,11 @@
             },
             {
                 "province": "puertoprincipe",
-                "owner": "DOLL"
+                "owner": ""
             },
             {
                 "province": "villavicencio",
-                "owner": "CHN"
+                "owner": "DRANK"
             },
             {
                 "province": "yopal",
@@ -919,20 +919,20 @@
         ],
         "max_applications_number": 16,
         "free_applications": 8,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 2
     },
     "cachoeiradaserra": {
         "province": "cachoeiradaserra",
-        "owner": "IMPCT",
-        "type": "landing",
+        "owner": "",
+        "type": "",
         "neighbours": [
             {
                 "province": "aldeiapiaracu",
-                "owner": "DRANK"
+                "owner": "IMPCT"
             },
             {
                 "province": "altafloresta",
-                "owner": "SOTE"
+                "owner": ""
             },
             {
                 "province": "kendjan",
@@ -947,18 +947,18 @@
                 "owner": "CAPA"
             }
         ],
-        "max_applications_number": 32,
+        "max_applications_number": 0,
         "free_applications": 0,
         "unique_neighbour_owners": 3
     },
     "cajazeiras": {
         "province": "cajazeiras",
-        "owner": "N-W-O",
-        "type": "neighbour",
+        "owner": "L1ME",
+        "type": "",
         "neighbours": [
             {
                 "province": "ico",
-                "owner": "LEM0N"
+                "owner": "L1ME"
             },
             {
                 "province": "juazeirodonorte",
@@ -970,50 +970,24 @@
             },
             {
                 "province": "patos",
-                "owner": "NSND"
+                "owner": "PLA-2"
             },
             {
                 "province": "salgueiro",
-                "owner": "-1AR-"
+                "owner": "L1ME"
             },
             {
                 "province": "serratalhada",
-                "owner": "L1ME"
+                "owner": "PANDA"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 5
-    },
-    "caliente": {
-        "province": "caliente",
-        "owner": "LEM0N",
-        "type": "defender",
-        "neighbours": [
-            {
-                "province": "adaven",
-                "owner": "SEKAI"
-            },
-            {
-                "province": "amargosavalley",
-                "owner": "LEM0N"
-            },
-            {
-                "province": "pioche",
-                "owner": "NSND"
-            },
-            {
-                "province": "stgeorge",
-                "owner": "LEM0N"
-            }
-        ],
-        "max_applications_number": 8,
-        "free_applications": 4,
         "unique_neighbour_owners": 3
     },
     "cali": {
         "province": "cali",
-        "owner": "TENT",
+        "owner": "DRANK",
         "type": "neighbour",
         "neighbours": [
             {
@@ -1034,17 +1008,17 @@
             },
             {
                 "province": "saldana",
-                "owner": "GNS"
+                "owner": "FISTS"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 5
+        "unique_neighbour_owners": 3
     },
     "camposlindos": {
         "province": "camposlindos",
-        "owner": "IMPCT",
-        "type": "landing",
+        "owner": "DOVE",
+        "type": "",
         "neighbours": [
             {
                 "province": "araguaina",
@@ -1052,11 +1026,11 @@
             },
             {
                 "province": "balsas",
-                "owner": "PANDA"
+                "owner": "L1ME"
             },
             {
                 "province": "colinasdotocantins",
-                "owner": "CHN"
+                "owner": "TENT"
             },
             {
                 "province": "estreito",
@@ -1064,29 +1038,29 @@
             },
             {
                 "province": "gilbues",
-                "owner": "N-W-O"
+                "owner": "DOLL"
             },
             {
                 "province": "novoacordo",
                 "owner": "CHN"
             }
         ],
-        "max_applications_number": 32,
+        "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 5
     },
     "canaima": {
         "province": "canaima",
-        "owner": "FISTS",
+        "owner": "SEKAI",
         "type": "auction",
         "neighbours": [
             {
                 "province": "parafalls",
-                "owner": "F-S"
+                "owner": "FISTS"
             },
             {
                 "province": "parimatapirapeconationalpark",
-                "owner": "PANDA"
+                "owner": "F-S"
             },
             {
                 "province": "santaelenadeuairen",
@@ -1096,6 +1070,32 @@
         "max_applications_number": 16,
         "free_applications": 8,
         "unique_neighbour_owners": 3
+    },
+    "caliente": {
+        "province": "caliente",
+        "owner": "LEM0N",
+        "type": "defender",
+        "neighbours": [
+            {
+                "province": "adaven",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "amargosavalley",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "pioche",
+                "owner": "EMPIR"
+            },
+            {
+                "province": "stgeorge",
+                "owner": "LEM0N"
+            }
+        ],
+        "max_applications_number": 8,
+        "free_applications": 4,
+        "unique_neighbour_owners": 2
     },
     "caruru": {
         "province": "caruru",
@@ -1116,11 +1116,11 @@
             },
             {
                 "province": "mitu",
-                "owner": "GNS"
+                "owner": "PANDA"
             },
             {
                 "province": "sanjosedelguaviare",
-                "owner": "LEM0N"
+                "owner": "GNS"
             }
         ],
         "max_applications_number": 0,
@@ -1129,8 +1129,8 @@
     },
     "casanova": {
         "province": "casanova",
-        "owner": "ESA",
-        "type": "",
+        "owner": "L1ME",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "araripina",
@@ -1138,7 +1138,7 @@
             },
             {
                 "province": "irece",
-                "owner": ""
+                "owner": "EVEN"
             },
             {
                 "province": "jacobina",
@@ -1161,36 +1161,14 @@
                 "owner": "ESA"
             }
         ],
-        "max_applications_number": 0,
+        "max_applications_number": 32,
         "free_applications": 0,
-        "unique_neighbour_owners": 3
-    },
-    "codajas": {
-        "province": "codajas",
-        "owner": "LIHKG",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "manacapuru",
-                "owner": ""
-            },
-            {
-                "province": "novoaripuana",
-                "owner": "S_A_S"
-            },
-            {
-                "province": "tapaua",
-                "owner": "IMPCT"
-            }
-        ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 2
+        "unique_neighbour_owners": 4
     },
     "caxias": {
         "province": "caxias",
-        "owner": "ESLMN",
-        "type": "neighbour",
+        "owner": "DOLL",
+        "type": "",
         "neighbours": [
             {
                 "province": "bacabal",
@@ -1202,37 +1180,75 @@
             },
             {
                 "province": "parnaiba",
-                "owner": "DRANK"
+                "owner": "DOVE"
             },
             {
                 "province": "parnarama",
-                "owner": "_KZ"
+                "owner": "L1ME"
             },
             {
                 "province": "saoluis",
-                "owner": "VOZ"
+                "owner": "ESLMN"
             },
             {
                 "province": "teresina",
-                "owner": "LEM0N"
+                "owner": "DOVE"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 6
+        "unique_neighbour_owners": 4
+    },
+    "colinas": {
+        "province": "colinas",
+        "owner": "IMPCT",
+        "type": "",
+        "neighbours": [
+            {
+                "province": "balsas",
+                "owner": "L1ME"
+            },
+            {
+                "province": "barradocorda",
+                "owner": "DOLL"
+            },
+            {
+                "province": "estreito",
+                "owner": "IMPCT"
+            },
+            {
+                "province": "floriano",
+                "owner": "ESA"
+            },
+            {
+                "province": "grajau",
+                "owner": ""
+            },
+            {
+                "province": "parnarama",
+                "owner": "L1ME"
+            },
+            {
+                "province": "urucui",
+                "owner": "ESA"
+            }
+        ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 4
     },
     "colider": {
         "province": "colider",
         "owner": "TENT",
-        "type": "",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "aldeiapiaracu",
-                "owner": "DRANK"
+                "owner": "IMPCT"
             },
             {
                 "province": "altafloresta",
-                "owner": "SOTE"
+                "owner": ""
             },
             {
                 "province": "brazilianairforcedetachment",
@@ -1243,9 +1259,65 @@
                 "owner": "IMPCT"
             }
         ],
-        "max_applications_number": 0,
+        "max_applications_number": 32,
         "free_applications": 0,
-        "unique_neighbour_owners": 3
+        "unique_neighbour_owners": 2
+    },
+    "colinasdotocantins": {
+        "province": "colinasdotocantins",
+        "owner": "TENT",
+        "type": "landing",
+        "neighbours": [
+            {
+                "province": "araguaina",
+                "owner": "CHN"
+            },
+            {
+                "province": "camposlindos",
+                "owner": "DOVE"
+            },
+            {
+                "province": "novoacordo",
+                "owner": "CHN"
+            },
+            {
+                "province": "palmas",
+                "owner": "BCRT"
+            },
+            {
+                "province": "redencao",
+                "owner": "CBMB"
+            },
+            {
+                "province": "santanadoaraguaia",
+                "owner": "F_B"
+            }
+        ],
+        "max_applications_number": 32,
+        "free_applications": 0,
+        "unique_neighbour_owners": 5
+    },
+    "conceicaodocoite": {
+        "province": "conceicaodocoite",
+        "owner": "",
+        "type": "landing",
+        "neighbours": [
+            {
+                "province": "aracaju",
+                "owner": ""
+            },
+            {
+                "province": "jacobina",
+                "owner": "ESA"
+            },
+            {
+                "province": "pauloafonso",
+                "owner": "PANDA"
+            }
+        ],
+        "max_applications_number": 32,
+        "free_applications": 0,
+        "unique_neighbour_owners": 2
     },
     "colniza": {
         "province": "colniza",
@@ -1266,11 +1338,11 @@
             },
             {
                 "province": "juina",
-                "owner": "LIHKG"
+                "owner": "IMPCT"
             },
             {
                 "province": "kururuzinho",
-                "owner": "ICPD"
+                "owner": "CHN"
             },
             {
                 "province": "novabandeirantes",
@@ -1279,67 +1351,7 @@
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 5
-    },
-    "colinas": {
-        "province": "colinas",
-        "owner": "DRANK",
-        "type": "landing",
-        "neighbours": [
-            {
-                "province": "balsas",
-                "owner": "PANDA"
-            },
-            {
-                "province": "barradocorda",
-                "owner": "DOLL"
-            },
-            {
-                "province": "estreito",
-                "owner": "IMPCT"
-            },
-            {
-                "province": "floriano",
-                "owner": "L1ME"
-            },
-            {
-                "province": "grajau",
-                "owner": ""
-            },
-            {
-                "province": "parnarama",
-                "owner": "_KZ"
-            },
-            {
-                "province": "urucui",
-                "owner": "L1ME"
-            }
-        ],
-        "max_applications_number": 32,
-        "free_applications": 0,
-        "unique_neighbour_owners": 5
-    },
-    "conceicaodocoite": {
-        "province": "conceicaodocoite",
-        "owner": "",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "aracaju",
-                "owner": ""
-            },
-            {
-                "province": "jacobina",
-                "owner": "ESA"
-            },
-            {
-                "province": "pauloafonso",
-                "owner": "PANDA"
-            }
-        ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 2
+        "unique_neighbour_owners": 3
     },
     "comunidadpurima": {
         "province": "comunidadpurima",
@@ -1352,7 +1364,7 @@
             },
             {
                 "province": "parimatapirapeconationalpark",
-                "owner": "PANDA"
+                "owner": "F-S"
             },
             {
                 "province": "puertoayacucho",
@@ -1360,50 +1372,16 @@
             },
             {
                 "province": "uiaiacas",
-                "owner": "NSND"
+                "owner": ""
             },
             {
                 "province": "yanomamisettlement",
                 "owner": "LEM0N"
             }
         ],
-        "max_applications_number": 16,
-        "free_applications": 8,
-        "unique_neighbour_owners": 3
-    },
-    "colinasdotocantins": {
-        "province": "colinasdotocantins",
-        "owner": "CHN",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "araguaina",
-                "owner": "CHN"
-            },
-            {
-                "province": "camposlindos",
-                "owner": "IMPCT"
-            },
-            {
-                "province": "novoacordo",
-                "owner": "CHN"
-            },
-            {
-                "province": "palmas",
-                "owner": "TENT"
-            },
-            {
-                "province": "redencao",
-                "owner": "IMPCT"
-            },
-            {
-                "province": "santanadoaraguaia",
-                "owner": "F_B"
-            }
-        ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 3
     },
     "confresa": {
         "province": "confresa",
@@ -1412,7 +1390,7 @@
         "neighbours": [
             {
                 "province": "aldeiapiaracu",
-                "owner": "DRANK"
+                "owner": "IMPCT"
             },
             {
                 "province": "brazilianairforcedetachment",
@@ -1424,12 +1402,60 @@
             },
             {
                 "province": "vilarica",
-                "owner": "DUAL"
+                "owner": "STRV"
             }
         ],
         "max_applications_number": 32,
         "free_applications": 0,
         "unique_neighbour_owners": 3
+    },
+    "codajas": {
+        "province": "codajas",
+        "owner": "LIHKG",
+        "type": "landing",
+        "neighbours": [
+            {
+                "province": "manacapuru",
+                "owner": ""
+            },
+            {
+                "province": "novoaripuana",
+                "owner": "S_A_S"
+            },
+            {
+                "province": "tapaua",
+                "owner": "IMPCT"
+            }
+        ],
+        "max_applications_number": 32,
+        "free_applications": 0,
+        "unique_neighbour_owners": 2
+    },
+    "corrente": {
+        "province": "corrente",
+        "owner": "STRV",
+        "type": "",
+        "neighbours": [
+            {
+                "province": "almas",
+                "owner": "TENT"
+            },
+            {
+                "province": "buritirama",
+                "owner": "STRV"
+            },
+            {
+                "province": "gilbues",
+                "owner": "DOLL"
+            },
+            {
+                "province": "novoacordo",
+                "owner": "CHN"
+            }
+        ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 4
     },
     "conselvan": {
         "province": "conselvan",
@@ -1459,20 +1485,20 @@
     },
     "crateus": {
         "province": "crateus",
-        "owner": "CAPA",
-        "type": "neighbour",
+        "owner": "_KZ",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "parnaiba",
-                "owner": "DRANK"
+                "owner": "DOVE"
             },
             {
                 "province": "quixeramobim",
-                "owner": "ESA"
+                "owner": "CAPA"
             },
             {
                 "province": "sobral",
-                "owner": "W-D"
+                "owner": "ESA"
             },
             {
                 "province": "taua",
@@ -1480,51 +1506,25 @@
             },
             {
                 "province": "teresina",
-                "owner": "LEM0N"
+                "owner": "DOVE"
             },
             {
                 "province": "valencadopiaui",
-                "owner": "_KZ"
-            }
-        ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 6
-    },
-    "corrente": {
-        "province": "corrente",
-        "owner": "STRV",
-        "type": "landing",
-        "neighbours": [
-            {
-                "province": "almas",
-                "owner": "CHN"
-            },
-            {
-                "province": "buritirama",
-                "owner": "DOLL"
-            },
-            {
-                "province": "gilbues",
-                "owner": "N-W-O"
-            },
-            {
-                "province": "novoacordo",
-                "owner": "CHN"
+                "owner": "TWWS"
             }
         ],
         "max_applications_number": 32,
         "free_applications": 0,
-        "unique_neighbour_owners": 3
+        "unique_neighbour_owners": 4
     },
     "cuiucuiu": {
         "province": "cuiucuiu",
         "owner": "DRANK",
-        "type": "landing",
+        "type": "",
         "neighbours": [
             {
                 "province": "garimpo",
-                "owner": ""
+                "owner": "IMPCT"
             },
             {
                 "province": "itaituba",
@@ -1532,7 +1532,7 @@
             },
             {
                 "province": "jacareacanga",
-                "owner": "GYM"
+                "owner": "RGZ"
             },
             {
                 "province": "novoprogresso",
@@ -1547,22 +1547,22 @@
                 "owner": "CAPA"
             }
         ],
-        "max_applications_number": 32,
+        "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 5
+        "unique_neighbour_owners": 6
     },
     "cumarudonorte": {
         "province": "cumarudonorte",
-        "owner": "TENT",
-        "type": "",
+        "owner": "IMPCT",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "parauapebas",
-                "owner": "IMPCT"
+                "owner": ""
             },
             {
                 "province": "redencao",
-                "owner": "IMPCT"
+                "owner": "CBMB"
             },
             {
                 "province": "riodourado",
@@ -1578,72 +1578,38 @@
             },
             {
                 "province": "vilarica",
-                "owner": "DUAL"
-            }
-        ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 3
-    },
-    "domeliseu": {
-        "province": "domeliseu",
-        "owner": "DOLL",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "buriticupu",
-                "owner": "DOLL"
-            },
-            {
-                "province": "imperatriz",
-                "owner": "VOZ"
-            },
-            {
-                "province": "jacunda",
-                "owner": "T7F"
-            },
-            {
-                "province": "maraba",
-                "owner": "IMPCT"
-            }
-        ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 4
-    },
-    "estreito": {
-        "province": "estreito",
-        "owner": "IMPCT",
-        "type": "landing",
-        "neighbours": [
-            {
-                "province": "araguaina",
-                "owner": "CHN"
-            },
-            {
-                "province": "balsas",
-                "owner": "PANDA"
-            },
-            {
-                "province": "camposlindos",
-                "owner": "IMPCT"
-            },
-            {
-                "province": "colinas",
-                "owner": "DRANK"
-            },
-            {
-                "province": "grajau",
-                "owner": ""
-            },
-            {
-                "province": "imperatriz",
-                "owner": "VOZ"
+                "owner": "STRV"
             }
         ],
         "max_applications_number": 32,
         "free_applications": 0,
-        "unique_neighbour_owners": 5
+        "unique_neighbour_owners": 4
+    },
+    "domeliseu": {
+        "province": "domeliseu",
+        "owner": "DOLL",
+        "type": "landing",
+        "neighbours": [
+            {
+                "province": "buriticupu",
+                "owner": "ESLMN"
+            },
+            {
+                "province": "imperatriz",
+                "owner": ""
+            },
+            {
+                "province": "jacunda",
+                "owner": "DOLL"
+            },
+            {
+                "province": "maraba",
+                "owner": ""
+            }
+        ],
+        "max_applications_number": 32,
+        "free_applications": 0,
+        "unique_neighbour_owners": 2
     },
     "elestadio": {
         "province": "elestadio",
@@ -1660,12 +1626,76 @@
             },
             {
                 "province": "sanjosedelguaviare",
-                "owner": "LEM0N"
+                "owner": "GNS"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
         "unique_neighbour_owners": 3
+    },
+    "eldoradodoscarajas": {
+        "province": "eldoradodoscarajas",
+        "owner": "IMPCT",
+        "type": "",
+        "neighbours": [
+            {
+                "province": "araguaina",
+                "owner": "CHN"
+            },
+            {
+                "province": "imperatriz",
+                "owner": ""
+            },
+            {
+                "province": "maraba",
+                "owner": ""
+            },
+            {
+                "province": "parauapebas",
+                "owner": ""
+            },
+            {
+                "province": "redencao",
+                "owner": "CBMB"
+            }
+        ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 2
+    },
+    "estreito": {
+        "province": "estreito",
+        "owner": "IMPCT",
+        "type": "",
+        "neighbours": [
+            {
+                "province": "araguaina",
+                "owner": "CHN"
+            },
+            {
+                "province": "balsas",
+                "owner": "L1ME"
+            },
+            {
+                "province": "camposlindos",
+                "owner": "DOVE"
+            },
+            {
+                "province": "colinas",
+                "owner": "IMPCT"
+            },
+            {
+                "province": "grajau",
+                "owner": ""
+            },
+            {
+                "province": "imperatriz",
+                "owner": ""
+            }
+        ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 4
     },
     "florencia": {
         "province": "florencia",
@@ -1674,11 +1704,11 @@
         "neighbours": [
             {
                 "province": "cali",
-                "owner": "TENT"
+                "owner": "DRANK"
             },
             {
                 "province": "pasto",
-                "owner": "NSND"
+                "owner": ""
             },
             {
                 "province": "popayan",
@@ -1686,63 +1716,29 @@
             },
             {
                 "province": "saldana",
-                "owner": "GNS"
+                "owner": "FISTS"
             },
             {
                 "province": "sanvicentedelcaguan",
-                "owner": "HO-PE"
+                "owner": "LEM0N"
             },
             {
                 "province": "solita",
                 "owner": "LEM0N"
             }
         ],
-        "max_applications_number": 16,
-        "free_applications": 8,
-        "unique_neighbour_owners": 6
-    },
-    "floriano": {
-        "province": "floriano",
-        "owner": "L1ME",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "colinas",
-                "owner": "DRANK"
-            },
-            {
-                "province": "parnarama",
-                "owner": "_KZ"
-            },
-            {
-                "province": "picos",
-                "owner": "L1ME"
-            },
-            {
-                "province": "saoraimundononato",
-                "owner": "ESA"
-            },
-            {
-                "province": "urucui",
-                "owner": "L1ME"
-            },
-            {
-                "province": "valencadopiaui",
-                "owner": "_KZ"
-            }
-        ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 3
     },
     "fortaleza": {
         "province": "fortaleza",
-        "owner": "PLA-2",
-        "type": "neighbour",
+        "owner": "",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "ico",
-                "owner": "LEM0N"
+                "owner": "L1ME"
             },
             {
                 "province": "itapipoca",
@@ -1754,47 +1750,51 @@
             },
             {
                 "province": "quixeramobim",
-                "owner": "ESA"
+                "owner": "CAPA"
             }
         ],
         "max_applications_number": 32,
         "free_applications": 0,
-        "unique_neighbour_owners": 3
+        "unique_neighbour_owners": 4
     },
-    "eldoradodoscarajas": {
-        "province": "eldoradodoscarajas",
-        "owner": "ICPD",
-        "type": "landing",
+    "floriano": {
+        "province": "floriano",
+        "owner": "ESA",
+        "type": "",
         "neighbours": [
             {
-                "province": "araguaina",
-                "owner": "CHN"
-            },
-            {
-                "province": "imperatriz",
-                "owner": "VOZ"
-            },
-            {
-                "province": "maraba",
+                "province": "colinas",
                 "owner": "IMPCT"
             },
             {
-                "province": "parauapebas",
-                "owner": "IMPCT"
+                "province": "parnarama",
+                "owner": "L1ME"
             },
             {
-                "province": "redencao",
-                "owner": "IMPCT"
+                "province": "picos",
+                "owner": "L1ME"
+            },
+            {
+                "province": "saoraimundononato",
+                "owner": "ESA"
+            },
+            {
+                "province": "urucui",
+                "owner": "ESA"
+            },
+            {
+                "province": "valencadopiaui",
+                "owner": "TWWS"
             }
         ],
-        "max_applications_number": 32,
+        "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 3
+        "unique_neighbour_owners": 4
     },
     "fresno": {
         "province": "fresno",
-        "owner": "LEM0N",
-        "type": "defender",
+        "owner": "SEKAI",
+        "type": "neighbour",
         "neighbours": [
             {
                 "province": "mammothlakes",
@@ -1806,7 +1806,7 @@
             },
             {
                 "province": "pasorobles",
-                "owner": "SEKAI"
+                "owner": "GNS"
             },
             {
                 "province": "salinas",
@@ -1814,17 +1814,17 @@
             },
             {
                 "province": "visalia",
-                "owner": "SEKAI"
+                "owner": "LEM0N"
             }
         ],
         "max_applications_number": 8,
         "free_applications": 4,
-        "unique_neighbour_owners": 2
+        "unique_neighbour_owners": 3
     },
     "garimpo": {
         "province": "garimpo",
-        "owner": "",
-        "type": "",
+        "owner": "IMPCT",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "barradesaomanoel",
@@ -1836,11 +1836,11 @@
             },
             {
                 "province": "jacareacanga",
-                "owner": "GYM"
+                "owner": "RGZ"
             },
             {
                 "province": "kururuzinho",
-                "owner": "ICPD"
+                "owner": "CHN"
             },
             {
                 "province": "novoplaneta",
@@ -1851,14 +1851,14 @@
                 "owner": "DRANK"
             }
         ],
-        "max_applications_number": 0,
+        "max_applications_number": 32,
         "free_applications": 0,
         "unique_neighbour_owners": 4
     },
     "grajau": {
         "province": "grajau",
         "owner": "",
-        "type": "",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "barradocorda",
@@ -1866,11 +1866,11 @@
             },
             {
                 "province": "buriticupu",
-                "owner": "DOLL"
+                "owner": "ESLMN"
             },
             {
                 "province": "colinas",
-                "owner": "DRANK"
+                "owner": "IMPCT"
             },
             {
                 "province": "estreito",
@@ -1878,21 +1878,21 @@
             },
             {
                 "province": "imperatriz",
-                "owner": "VOZ"
+                "owner": ""
             }
         ],
-        "max_applications_number": 0,
+        "max_applications_number": 32,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 3
     },
     "gilbues": {
         "province": "gilbues",
-        "owner": "N-W-O",
+        "owner": "DOLL",
         "type": "",
         "neighbours": [
             {
                 "province": "balsas",
-                "owner": "PANDA"
+                "owner": "L1ME"
             },
             {
                 "province": "bomjesus",
@@ -1900,11 +1900,11 @@
             },
             {
                 "province": "buritirama",
-                "owner": "DOLL"
+                "owner": "STRV"
             },
             {
                 "province": "camposlindos",
-                "owner": "IMPCT"
+                "owner": "DOVE"
             },
             {
                 "province": "corrente",
@@ -1916,39 +1916,39 @@
             },
             {
                 "province": "urucui",
-                "owner": "L1ME"
+                "owner": "ESA"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 6
+        "unique_neighbour_owners": 5
     },
     "guaniamoriver": {
         "province": "guaniamoriver",
         "owner": "SEKAI",
-        "type": "",
+        "type": "auction",
         "neighbours": [
             {
                 "province": "parafalls",
-                "owner": "F-S"
+                "owner": "FISTS"
             },
             {
                 "province": "puertoayacucho",
                 "owner": "PANDA"
             }
         ],
-        "max_applications_number": 0,
-        "free_applications": 0,
+        "max_applications_number": 16,
+        "free_applications": 8,
         "unique_neighbour_owners": 2
     },
     "hamlinvalley": {
         "province": "hamlinvalley",
-        "owner": "NSND",
-        "type": "neighbour",
+        "owner": "LEM0N",
+        "type": "defender",
         "neighbours": [
             {
                 "province": "pioche",
-                "owner": "NSND"
+                "owner": "EMPIR"
             },
             {
                 "province": "stgeorge",
@@ -1957,12 +1957,12 @@
         ],
         "max_applications_number": 8,
         "free_applications": 4,
-        "unique_neighbour_owners": 2
+        "unique_neighbour_owners": 1
     },
     "guata": {
         "province": "guata",
         "owner": "STRV",
-        "type": "",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "aripuana",
@@ -1974,29 +1974,29 @@
             },
             {
                 "province": "machadinhodoeste",
-                "owner": "10086"
+                "owner": "STRV"
             },
             {
                 "province": "santoantoniodomatupi",
                 "owner": "DRANK"
             }
         ],
-        "max_applications_number": 0,
+        "max_applications_number": 32,
         "free_applications": 0,
         "unique_neighbour_owners": 3
     },
     "humaita": {
         "province": "humaita",
-        "owner": "",
+        "owner": "IMPCT",
         "type": "",
         "neighbours": [
             {
                 "province": "auxiliadora",
-                "owner": ""
+                "owner": "10086"
             },
             {
                 "province": "machadinhodoeste",
-                "owner": "10086"
+                "owner": "STRV"
             },
             {
                 "province": "tapaua",
@@ -2005,11 +2005,11 @@
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 2
+        "unique_neighbour_owners": 3
     },
     "ibacaba": {
         "province": "ibacaba",
-        "owner": "GNS",
+        "owner": "PLA-2",
         "type": "",
         "neighbours": [
             {
@@ -2018,53 +2018,15 @@
             },
             {
                 "province": "mitu",
-                "owner": "GNS"
+                "owner": "PANDA"
             },
             {
                 "province": "sancarlosderionegro",
-                "owner": "PLA-2"
+                "owner": "DUAL"
             },
             {
                 "province": "sansimondelcocuy",
-                "owner": "NSND"
-            }
-        ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 4
-    },
-    "imperatriz": {
-        "province": "imperatriz",
-        "owner": "VOZ",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "araguaina",
-                "owner": "CHN"
-            },
-            {
-                "province": "buriticupu",
-                "owner": "DOLL"
-            },
-            {
-                "province": "domeliseu",
-                "owner": "DOLL"
-            },
-            {
-                "province": "eldoradodoscarajas",
-                "owner": "ICPD"
-            },
-            {
-                "province": "estreito",
-                "owner": "IMPCT"
-            },
-            {
-                "province": "grajau",
-                "owner": ""
-            },
-            {
-                "province": "maraba",
-                "owner": "IMPCT"
+                "owner": "PLA-2"
             }
         ],
         "max_applications_number": 0,
@@ -2073,16 +2035,16 @@
     },
     "ico": {
         "province": "ico",
-        "owner": "LEM0N",
-        "type": "defender",
+        "owner": "L1ME",
+        "type": "",
         "neighbours": [
             {
                 "province": "cajazeiras",
-                "owner": "N-W-O"
+                "owner": "L1ME"
             },
             {
                 "province": "fortaleza",
-                "owner": "PLA-2"
+                "owner": ""
             },
             {
                 "province": "juazeirodonorte",
@@ -2094,21 +2056,59 @@
             },
             {
                 "province": "quixeramobim",
-                "owner": "ESA"
+                "owner": "CAPA"
             }
         ],
-        "max_applications_number": 32,
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 3
+    },
+    "imperatriz": {
+        "province": "imperatriz",
+        "owner": "",
+        "type": "",
+        "neighbours": [
+            {
+                "province": "araguaina",
+                "owner": "CHN"
+            },
+            {
+                "province": "buriticupu",
+                "owner": "ESLMN"
+            },
+            {
+                "province": "domeliseu",
+                "owner": "DOLL"
+            },
+            {
+                "province": "eldoradodoscarajas",
+                "owner": "IMPCT"
+            },
+            {
+                "province": "estreito",
+                "owner": "IMPCT"
+            },
+            {
+                "province": "grajau",
+                "owner": ""
+            },
+            {
+                "province": "maraba",
+                "owner": ""
+            }
+        ],
+        "max_applications_number": 0,
         "free_applications": 0,
         "unique_neighbour_owners": 4
     },
     "irece": {
         "province": "irece",
-        "owner": "",
-        "type": "landing",
+        "owner": "EVEN",
+        "type": "",
         "neighbours": [
             {
                 "province": "casanova",
-                "owner": "ESA"
+                "owner": "L1ME"
             },
             {
                 "province": "jacobina",
@@ -2120,17 +2120,39 @@
             },
             {
                 "province": "xiquexique",
-                "owner": ""
+                "owner": "DOLL"
             }
         ],
-        "max_applications_number": 32,
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 3
+    },
+    "itapipoca": {
+        "province": "itapipoca",
+        "owner": "ESA",
+        "type": "",
+        "neighbours": [
+            {
+                "province": "fortaleza",
+                "owner": ""
+            },
+            {
+                "province": "quixeramobim",
+                "owner": "CAPA"
+            },
+            {
+                "province": "sobral",
+                "owner": "ESA"
+            }
+        ],
+        "max_applications_number": 0,
         "free_applications": 0,
         "unique_neighbour_owners": 2
     },
     "itaituba": {
         "province": "itaituba",
         "owner": "T7F",
-        "type": "landing",
+        "type": "",
         "neighbours": [
             {
                 "province": "cuiucuiu",
@@ -2150,38 +2172,16 @@
             },
             {
                 "province": "varrevento",
-                "owner": "DOLL"
-            }
-        ],
-        "max_applications_number": 32,
-        "free_applications": 0,
-        "unique_neighbour_owners": 5
-    },
-    "itapipoca": {
-        "province": "itapipoca",
-        "owner": "ESA",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "fortaleza",
-                "owner": "PLA-2"
-            },
-            {
-                "province": "quixeramobim",
-                "owner": "ESA"
-            },
-            {
-                "province": "sobral",
-                "owner": "W-D"
+                "owner": "OPAYA"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 3
+        "unique_neighbour_owners": 5
     },
     "jacareacanga": {
         "province": "jacareacanga",
-        "owner": "GYM",
+        "owner": "RGZ",
         "type": "",
         "neighbours": [
             {
@@ -2194,41 +2194,15 @@
             },
             {
                 "province": "garimpo",
-                "owner": ""
-            },
-            {
-                "province": "varrevento",
-                "owner": "DOLL"
-            },
-            {
-                "province": "vilameriti",
-                "owner": "RGZ"
-            }
-        ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 3
-    },
-    "jacunda": {
-        "province": "jacunda",
-        "owner": "T7F",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "domeliseu",
-                "owner": "DOLL"
-            },
-            {
-                "province": "maraba",
                 "owner": "IMPCT"
             },
             {
-                "province": "novorepartimento",
-                "owner": "L1ME"
+                "province": "varrevento",
+                "owner": "OPAYA"
             },
             {
-                "province": "pacaja",
-                "owner": "NSND"
+                "province": "vilameriti",
+                "owner": "DOLL"
             }
         ],
         "max_applications_number": 0,
@@ -2238,11 +2212,11 @@
     "jacobina": {
         "province": "jacobina",
         "owner": "ESA",
-        "type": "",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "casanova",
-                "owner": "ESA"
+                "owner": "L1ME"
             },
             {
                 "province": "conceicaodocoite",
@@ -2250,21 +2224,47 @@
             },
             {
                 "province": "irece",
-                "owner": ""
+                "owner": "EVEN"
             },
             {
                 "province": "petrolina",
                 "owner": "ESA"
             }
         ],
-        "max_applications_number": 0,
+        "max_applications_number": 32,
         "free_applications": 0,
-        "unique_neighbour_owners": 1
+        "unique_neighbour_owners": 3
+    },
+    "jacunda": {
+        "province": "jacunda",
+        "owner": "DOLL",
+        "type": "landing",
+        "neighbours": [
+            {
+                "province": "domeliseu",
+                "owner": "DOLL"
+            },
+            {
+                "province": "maraba",
+                "owner": ""
+            },
+            {
+                "province": "novorepartimento",
+                "owner": "L1ME"
+            },
+            {
+                "province": "pacaja",
+                "owner": "L1ME"
+            }
+        ],
+        "max_applications_number": 32,
+        "free_applications": 0,
+        "unique_neighbour_owners": 2
     },
     "juazeirodonorte": {
         "province": "juazeirodonorte",
         "owner": "L1ME",
-        "type": "neighbour",
+        "type": "",
         "neighbours": [
             {
                 "province": "araripina",
@@ -2272,19 +2272,19 @@
             },
             {
                 "province": "cajazeiras",
-                "owner": "N-W-O"
+                "owner": "L1ME"
             },
             {
                 "province": "ico",
-                "owner": "LEM0N"
+                "owner": "L1ME"
             },
             {
                 "province": "quixeramobim",
-                "owner": "ESA"
+                "owner": "CAPA"
             },
             {
                 "province": "salgueiro",
-                "owner": "-1AR-"
+                "owner": "L1ME"
             },
             {
                 "province": "taua",
@@ -2293,46 +2293,20 @@
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 6
-    },
-    "juina": {
-        "province": "juina",
-        "owner": "LIHKG",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "aripuana",
-                "owner": "CHN"
-            },
-            {
-                "province": "colniza",
-                "owner": "CHN"
-            },
-            {
-                "province": "novabandeirantes",
-                "owner": "IMPCT"
-            },
-            {
-                "province": "portodosgauchos",
-                "owner": "LIHKG"
-            }
-        ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 3
+        "unique_neighbour_owners": 2
     },
     "kendjan": {
         "province": "kendjan",
         "owner": "CAPA",
-        "type": "",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "aldeiapiaracu",
-                "owner": "DRANK"
+                "owner": "IMPCT"
             },
             {
                 "province": "cachoeiradaserra",
-                "owner": "IMPCT"
+                "owner": ""
             },
             {
                 "province": "riodourado",
@@ -2351,14 +2325,40 @@
                 "owner": "DUAL"
             }
         ],
-        "max_applications_number": 0,
+        "max_applications_number": 32,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 3
+    },
+    "juina": {
+        "province": "juina",
+        "owner": "IMPCT",
+        "type": "landing",
+        "neighbours": [
+            {
+                "province": "aripuana",
+                "owner": "CHN"
+            },
+            {
+                "province": "colniza",
+                "owner": "CHN"
+            },
+            {
+                "province": "novabandeirantes",
+                "owner": "IMPCT"
+            },
+            {
+                "province": "portodosgauchos",
+                "owner": "LIHKG"
+            }
+        ],
+        "max_applications_number": 32,
+        "free_applications": 0,
+        "unique_neighbour_owners": 3
     },
     "kururuzinho": {
         "province": "kururuzinho",
-        "owner": "ICPD",
-        "type": "",
+        "owner": "CHN",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "barradesaomanoel",
@@ -2374,7 +2374,7 @@
             },
             {
                 "province": "garimpo",
-                "owner": ""
+                "owner": "IMPCT"
             },
             {
                 "province": "novabandeirantes",
@@ -2385,13 +2385,13 @@
                 "owner": "IMPCT"
             }
         ],
-        "max_applications_number": 0,
+        "max_applications_number": 32,
         "free_applications": 0,
         "unique_neighbour_owners": 3
     },
     "ladorada": {
         "province": "ladorada",
-        "owner": "_KZ",
+        "owner": "DRANK",
         "type": "neighbour",
         "neighbours": [
             {
@@ -2411,26 +2411,26 @@
                 "owner": "SEKAI"
             }
         ],
-        "max_applications_number": 16,
-        "free_applications": 8,
-        "unique_neighbour_owners": 3
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 2
     },
     "maceio": {
         "province": "maceio",
-        "owner": "VOZ",
+        "owner": "",
         "type": "",
         "neighbours": [
             {
                 "province": "arapiraca",
-                "owner": "GNS"
+                "owner": "L1ME"
             },
             {
                 "province": "belojardim",
-                "owner": "SEKAI"
+                "owner": "DOVE"
             },
             {
                 "province": "recife",
-                "owner": "N-W-O"
+                "owner": "SEKAI"
             }
         ],
         "max_applications_number": 0,
@@ -2440,7 +2440,7 @@
     "lavictoria": {
         "province": "lavictoria",
         "owner": "SEKAI",
-        "type": "",
+        "type": "auction",
         "neighbours": [
             {
                 "province": "caruru",
@@ -2448,42 +2448,16 @@
             },
             {
                 "province": "ibacaba",
-                "owner": "GNS"
+                "owner": "PLA-2"
             },
             {
                 "province": "mitu",
-                "owner": "GNS"
+                "owner": "PANDA"
             }
         ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 2
-    },
-    "machadinhodoeste": {
-        "province": "machadinhodoeste",
-        "owner": "10086",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "auxiliadora",
-                "owner": ""
-            },
-            {
-                "province": "guata",
-                "owner": "STRV"
-            },
-            {
-                "province": "humaita",
-                "owner": ""
-            },
-            {
-                "province": "santoantoniodomatupi",
-                "owner": "DRANK"
-            }
-        ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 2
+        "max_applications_number": 16,
+        "free_applications": 8,
+        "unique_neighbour_owners": 3
     },
     "manacapuru": {
         "province": "manacapuru",
@@ -2507,6 +2481,32 @@
         "free_applications": 0,
         "unique_neighbour_owners": 3
     },
+    "machadinhodoeste": {
+        "province": "machadinhodoeste",
+        "owner": "STRV",
+        "type": "",
+        "neighbours": [
+            {
+                "province": "auxiliadora",
+                "owner": "10086"
+            },
+            {
+                "province": "guata",
+                "owner": "STRV"
+            },
+            {
+                "province": "humaita",
+                "owner": "IMPCT"
+            },
+            {
+                "province": "santoantoniodomatupi",
+                "owner": "DRANK"
+            }
+        ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 4
+    },
     "mammothlakes": {
         "province": "mammothlakes",
         "owner": "LEM0N",
@@ -2514,7 +2514,7 @@
         "neighbours": [
             {
                 "province": "fresno",
-                "owner": "LEM0N"
+                "owner": "SEKAI"
             },
             {
                 "province": "modesto",
@@ -2522,20 +2522,20 @@
             },
             {
                 "province": "timbisha",
-                "owner": "DRANK"
+                "owner": "LEM0N"
             },
             {
                 "province": "tonopah",
-                "owner": "PANDA"
+                "owner": "DRANK"
             },
             {
                 "province": "visalia",
-                "owner": "SEKAI"
+                "owner": "LEM0N"
             }
         ],
         "max_applications_number": 8,
         "free_applications": 4,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 3
     },
     "manizales": {
         "province": "manizales",
@@ -2552,11 +2552,11 @@
             },
             {
                 "province": "cali",
-                "owner": "TENT"
+                "owner": "DRANK"
             },
             {
                 "province": "ladorada",
-                "owner": "_KZ"
+                "owner": "DRANK"
             },
             {
                 "province": "quibdo",
@@ -2564,68 +2564,12 @@
             },
             {
                 "province": "saldana",
-                "owner": "GNS"
-            }
-        ],
-        "max_applications_number": 16,
-        "free_applications": 8,
-        "unique_neighbour_owners": 5
-    },
-    "maues": {
-        "province": "maues",
-        "owner": "",
-        "type": "landing",
-        "neighbours": [
-            {
-                "province": "borba",
                 "owner": "FISTS"
-            },
-            {
-                "province": "parintins",
-                "owner": "SEKAI"
-            },
-            {
-                "province": "varrevento",
-                "owner": "DOLL"
-            }
-        ],
-        "max_applications_number": 32,
-        "free_applications": 0,
-        "unique_neighbour_owners": 3
-    },
-    "maraba": {
-        "province": "maraba",
-        "owner": "IMPCT",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "domeliseu",
-                "owner": "DOLL"
-            },
-            {
-                "province": "eldoradodoscarajas",
-                "owner": "ICPD"
-            },
-            {
-                "province": "imperatriz",
-                "owner": "VOZ"
-            },
-            {
-                "province": "jacunda",
-                "owner": "T7F"
-            },
-            {
-                "province": "novorepartimento",
-                "owner": "L1ME"
-            },
-            {
-                "province": "parauapebas",
-                "owner": "IMPCT"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 6
+        "unique_neighbour_owners": 4
     },
     "mapiripan": {
         "province": "mapiripan",
@@ -2642,7 +2586,7 @@
             },
             {
                 "province": "mitu",
-                "owner": "GNS"
+                "owner": "PANDA"
             },
             {
                 "province": "mochelosur",
@@ -2650,16 +2594,50 @@
             },
             {
                 "province": "puertoprincipe",
-                "owner": "DOLL"
+                "owner": ""
             },
             {
                 "province": "sanjosedelguaviare",
-                "owner": "LEM0N"
+                "owner": "GNS"
             }
         ],
-        "max_applications_number": 0,
+        "max_applications_number": 16,
+        "free_applications": 8,
+        "unique_neighbour_owners": 4
+    },
+    "maraba": {
+        "province": "maraba",
+        "owner": "",
+        "type": "landing",
+        "neighbours": [
+            {
+                "province": "domeliseu",
+                "owner": "DOLL"
+            },
+            {
+                "province": "eldoradodoscarajas",
+                "owner": "IMPCT"
+            },
+            {
+                "province": "imperatriz",
+                "owner": ""
+            },
+            {
+                "province": "jacunda",
+                "owner": "DOLL"
+            },
+            {
+                "province": "novorepartimento",
+                "owner": "L1ME"
+            },
+            {
+                "province": "parauapebas",
+                "owner": ""
+            }
+        ],
+        "max_applications_number": 32,
         "free_applications": 0,
-        "unique_neighbour_owners": 5
+        "unique_neighbour_owners": 3
     },
     "maroa": {
         "province": "maroa",
@@ -2676,11 +2654,11 @@
             },
             {
                 "province": "puertocarreno",
-                "owner": "PANDA"
+                "owner": ""
             },
             {
                 "province": "sancarlosderionegro",
-                "owner": "PLA-2"
+                "owner": "DUAL"
             },
             {
                 "province": "sanfernandodeatabapo",
@@ -2695,10 +2673,50 @@
         "free_applications": 8,
         "unique_neighbour_owners": 4
     },
+    "maues": {
+        "province": "maues",
+        "owner": "",
+        "type": "",
+        "neighbours": [
+            {
+                "province": "borba",
+                "owner": "FISTS"
+            },
+            {
+                "province": "parintins",
+                "owner": "SEKAI"
+            },
+            {
+                "province": "varrevento",
+                "owner": "OPAYA"
+            }
+        ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 3
+    },
+    "medellin": {
+        "province": "medellin",
+        "owner": "DOLL",
+        "type": "auction",
+        "neighbours": [
+            {
+                "province": "ladorada",
+                "owner": "DRANK"
+            },
+            {
+                "province": "quibdo",
+                "owner": "DOLL"
+            }
+        ],
+        "max_applications_number": 16,
+        "free_applications": 8,
+        "unique_neighbour_owners": 2
+    },
     "mitu": {
         "province": "mitu",
-        "owner": "GNS",
-        "type": "auction",
+        "owner": "PANDA",
+        "type": "",
         "neighbours": [
             {
                 "province": "barrancominas",
@@ -2710,7 +2728,7 @@
             },
             {
                 "province": "ibacaba",
-                "owner": "GNS"
+                "owner": "PLA-2"
             },
             {
                 "province": "lavictoria",
@@ -2722,60 +2740,16 @@
             },
             {
                 "province": "puertoprincipe",
-                "owner": "DOLL"
+                "owner": ""
             },
             {
                 "province": "sancarlosderionegro",
-                "owner": "PLA-2"
-            }
-        ],
-        "max_applications_number": 16,
-        "free_applications": 8,
-        "unique_neighbour_owners": 6
-    },
-    "medellin": {
-        "province": "medellin",
-        "owner": "DOLL",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "ladorada",
-                "owner": "_KZ"
-            },
-            {
-                "province": "quibdo",
-                "owner": "DOLL"
+                "owner": "DUAL"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 2
-    },
-    "modesto": {
-        "province": "modesto",
-        "owner": "SEKAI",
-        "type": "neighbour",
-        "neighbours": [
-            {
-                "province": "fresno",
-                "owner": "LEM0N"
-            },
-            {
-                "province": "mammothlakes",
-                "owner": "LEM0N"
-            },
-            {
-                "province": "salinas",
-                "owner": "SEKAI"
-            },
-            {
-                "province": "sanjose",
-                "owner": "LEM0N"
-            }
-        ],
-        "max_applications_number": 8,
-        "free_applications": 4,
-        "unique_neighbour_owners": 2
+        "unique_neighbour_owners": 5
     },
     "mochelosur": {
         "province": "mochelosur",
@@ -2796,29 +2770,55 @@
             },
             {
                 "province": "saldana",
-                "owner": "GNS"
+                "owner": "FISTS"
             },
             {
                 "province": "sanjosedelguaviare",
-                "owner": "LEM0N"
+                "owner": "GNS"
             },
             {
                 "province": "sanvicentedelcaguan",
-                "owner": "HO-PE"
+                "owner": "LEM0N"
             },
             {
                 "province": "villavicencio",
-                "owner": "CHN"
+                "owner": "DRANK"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
         "unique_neighbour_owners": 6
     },
+    "modesto": {
+        "province": "modesto",
+        "owner": "SEKAI",
+        "type": "neighbour",
+        "neighbours": [
+            {
+                "province": "fresno",
+                "owner": "SEKAI"
+            },
+            {
+                "province": "mammothlakes",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "salinas",
+                "owner": "SEKAI"
+            },
+            {
+                "province": "sanjose",
+                "owner": "SEKAI"
+            }
+        ],
+        "max_applications_number": 8,
+        "free_applications": 4,
+        "unique_neighbour_owners": 1
+    },
     "moradadosol": {
         "province": "moradadosol",
-        "owner": "TENT",
-        "type": "",
+        "owner": "IMPCT",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "novorepartimento",
@@ -2826,11 +2826,11 @@
             },
             {
                 "province": "pacaja",
-                "owner": "NSND"
+                "owner": "L1ME"
             },
             {
                 "province": "parauapebas",
-                "owner": "IMPCT"
+                "owner": ""
             },
             {
                 "province": "taboca",
@@ -2838,55 +2838,77 @@
             },
             {
                 "province": "teimoso",
-                "owner": "CAPA"
+                "owner": "STRV"
             },
             {
                 "province": "tucuma",
                 "owner": "DUAL"
             }
         ],
-        "max_applications_number": 0,
+        "max_applications_number": 32,
         "free_applications": 0,
-        "unique_neighbour_owners": 5
+        "unique_neighbour_owners": 4
     },
     "mossoro": {
         "province": "mossoro",
         "owner": "PLA-2",
-        "type": "neighbour",
+        "type": "",
         "neighbours": [
             {
                 "province": "cajazeiras",
-                "owner": "N-W-O"
+                "owner": "L1ME"
             },
             {
                 "province": "fortaleza",
-                "owner": "PLA-2"
+                "owner": ""
             },
             {
                 "province": "ico",
-                "owner": "LEM0N"
+                "owner": "L1ME"
             },
             {
                 "province": "natal",
-                "owner": "40WR8"
+                "owner": "DOVE"
             },
             {
                 "province": "patos",
-                "owner": "NSND"
+                "owner": "PLA-2"
             }
         ],
-        "max_applications_number": 32,
+        "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 5
+        "unique_neighbour_owners": 3
+    },
+    "natal": {
+        "province": "natal",
+        "owner": "DOVE",
+        "type": "",
+        "neighbours": [
+            {
+                "province": "mossoro",
+                "owner": "PLA-2"
+            },
+            {
+                "province": "patos",
+                "owner": "PLA-2"
+            },
+            {
+                "province": "recife",
+                "owner": "SEKAI"
+            }
+        ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 2
     },
     "novabandeirantes": {
         "province": "novabandeirantes",
         "owner": "IMPCT",
-        "type": "landing",
+        "type": "",
         "neighbours": [
             {
                 "province": "altafloresta",
-                "owner": "SOTE"
+                "owner": ""
             },
             {
                 "province": "colniza",
@@ -2894,11 +2916,11 @@
             },
             {
                 "province": "juina",
-                "owner": "LIHKG"
+                "owner": "IMPCT"
             },
             {
                 "province": "kururuzinho",
-                "owner": "ICPD"
+                "owner": "CHN"
             },
             {
                 "province": "novacanaadonorte",
@@ -2913,29 +2935,7 @@
                 "owner": "LIHKG"
             }
         ],
-        "max_applications_number": 32,
-        "free_applications": 0,
-        "unique_neighbour_owners": 5
-    },
-    "natal": {
-        "province": "natal",
-        "owner": "40WR8",
-        "type": "landing",
-        "neighbours": [
-            {
-                "province": "mossoro",
-                "owner": "PLA-2"
-            },
-            {
-                "province": "patos",
-                "owner": "NSND"
-            },
-            {
-                "province": "recife",
-                "owner": "N-W-O"
-            }
-        ],
-        "max_applications_number": 32,
+        "max_applications_number": 0,
         "free_applications": 0,
         "unique_neighbour_owners": 3
     },
@@ -2946,7 +2946,7 @@
         "neighbours": [
             {
                 "province": "altafloresta",
-                "owner": "SOTE"
+                "owner": ""
             },
             {
                 "province": "colider",
@@ -2963,7 +2963,7 @@
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 3
     },
     "novoacordo": {
         "province": "novoacordo",
@@ -2972,15 +2972,15 @@
         "neighbours": [
             {
                 "province": "almas",
-                "owner": "CHN"
+                "owner": "TENT"
             },
             {
                 "province": "camposlindos",
-                "owner": "IMPCT"
+                "owner": "DOVE"
             },
             {
                 "province": "colinasdotocantins",
-                "owner": "CHN"
+                "owner": "TENT"
             },
             {
                 "province": "corrente",
@@ -2988,50 +2988,16 @@
             },
             {
                 "province": "gilbues",
-                "owner": "N-W-O"
+                "owner": "DOLL"
             },
             {
                 "province": "palmas",
-                "owner": "TENT"
+                "owner": "BCRT"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
         "unique_neighbour_owners": 5
-    },
-    "novoprogresso": {
-        "province": "novoprogresso",
-        "owner": "DRANK",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "altafloresta",
-                "owner": "SOTE"
-            },
-            {
-                "province": "cachoeiradaserra",
-                "owner": "IMPCT"
-            },
-            {
-                "province": "cuiucuiu",
-                "owner": "DRANK"
-            },
-            {
-                "province": "garimpo",
-                "owner": ""
-            },
-            {
-                "province": "novoplaneta",
-                "owner": "IMPCT"
-            },
-            {
-                "province": "seringalsaojorge",
-                "owner": "CAPA"
-            }
-        ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 4
     },
     "novoaripuana": {
         "province": "novoaripuana",
@@ -3044,7 +3010,7 @@
             },
             {
                 "province": "auxiliadora",
-                "owner": ""
+                "owner": "10086"
             },
             {
                 "province": "borba",
@@ -3064,29 +3030,63 @@
             },
             {
                 "province": "vilameriti",
-                "owner": "RGZ"
+                "owner": "DOLL"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 5
+    },
+    "novoprogresso": {
+        "province": "novoprogresso",
+        "owner": "DRANK",
+        "type": "",
+        "neighbours": [
+            {
+                "province": "altafloresta",
+                "owner": ""
+            },
+            {
+                "province": "cachoeiradaserra",
+                "owner": ""
+            },
+            {
+                "province": "cuiucuiu",
+                "owner": "DRANK"
+            },
+            {
+                "province": "garimpo",
+                "owner": "IMPCT"
+            },
+            {
+                "province": "novoplaneta",
+                "owner": "IMPCT"
+            },
+            {
+                "province": "seringalsaojorge",
+                "owner": "CAPA"
+            }
+        ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 3
     },
     "novoplaneta": {
         "province": "novoplaneta",
         "owner": "IMPCT",
-        "type": "landing",
+        "type": "",
         "neighbours": [
             {
                 "province": "altafloresta",
-                "owner": "SOTE"
-            },
-            {
-                "province": "garimpo",
                 "owner": ""
             },
             {
+                "province": "garimpo",
+                "owner": "IMPCT"
+            },
+            {
                 "province": "kururuzinho",
-                "owner": "ICPD"
+                "owner": "CHN"
             },
             {
                 "province": "novabandeirantes",
@@ -3097,39 +3097,39 @@
                 "owner": "DRANK"
             }
         ],
-        "max_applications_number": 32,
+        "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 3
     },
     "novorepartimento": {
         "province": "novorepartimento",
         "owner": "L1ME",
-        "type": "landing",
+        "type": "",
         "neighbours": [
             {
                 "province": "jacunda",
-                "owner": "T7F"
+                "owner": "DOLL"
             },
             {
                 "province": "maraba",
-                "owner": "IMPCT"
+                "owner": ""
             },
             {
                 "province": "moradadosol",
-                "owner": "TENT"
+                "owner": "IMPCT"
             },
             {
                 "province": "pacaja",
-                "owner": "NSND"
+                "owner": "L1ME"
             },
             {
                 "province": "parauapebas",
-                "owner": "IMPCT"
+                "owner": ""
             }
         ],
-        "max_applications_number": 32,
+        "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 3
     },
     "orocue": {
         "province": "orocue",
@@ -3150,11 +3150,11 @@
             },
             {
                 "province": "puertocarreno",
-                "owner": "PANDA"
+                "owner": ""
             },
             {
                 "province": "puertoprincipe",
-                "owner": "DOLL"
+                "owner": ""
             },
             {
                 "province": "yopal",
@@ -3163,12 +3163,12 @@
         ],
         "max_applications_number": 16,
         "free_applications": 8,
-        "unique_neighbour_owners": 6
+        "unique_neighbour_owners": 3
     },
     "pacaja": {
         "province": "pacaja",
-        "owner": "NSND",
-        "type": "",
+        "owner": "L1ME",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "altamira",
@@ -3176,11 +3176,11 @@
             },
             {
                 "province": "jacunda",
-                "owner": "T7F"
+                "owner": "DOLL"
             },
             {
                 "province": "moradadosol",
-                "owner": "TENT"
+                "owner": "IMPCT"
             },
             {
                 "province": "novorepartimento",
@@ -3188,25 +3188,25 @@
             },
             {
                 "province": "teimoso",
-                "owner": "CAPA"
+                "owner": "STRV"
             }
         ],
-        "max_applications_number": 0,
+        "max_applications_number": 32,
         "free_applications": 0,
-        "unique_neighbour_owners": 5
+        "unique_neighbour_owners": 4
     },
     "palmas": {
         "province": "palmas",
-        "owner": "TENT",
-        "type": "landing",
+        "owner": "BCRT",
+        "type": "",
         "neighbours": [
             {
                 "province": "almas",
-                "owner": "CHN"
+                "owner": "TENT"
             },
             {
                 "province": "colinasdotocantins",
-                "owner": "CHN"
+                "owner": "TENT"
             },
             {
                 "province": "novoacordo",
@@ -3221,56 +3221,18 @@
                 "owner": "F_B"
             }
         ],
-        "max_applications_number": 32,
+        "max_applications_number": 0,
         "free_applications": 0,
         "unique_neighbour_owners": 3
     },
-    "parauapebas": {
-        "province": "parauapebas",
-        "owner": "IMPCT",
-        "type": "landing",
-        "neighbours": [
-            {
-                "province": "cumarudonorte",
-                "owner": "TENT"
-            },
-            {
-                "province": "eldoradodoscarajas",
-                "owner": "ICPD"
-            },
-            {
-                "province": "maraba",
-                "owner": "IMPCT"
-            },
-            {
-                "province": "moradadosol",
-                "owner": "TENT"
-            },
-            {
-                "province": "novorepartimento",
-                "owner": "L1ME"
-            },
-            {
-                "province": "redencao",
-                "owner": "IMPCT"
-            },
-            {
-                "province": "tucuma",
-                "owner": "DUAL"
-            }
-        ],
-        "max_applications_number": 32,
-        "free_applications": 0,
-        "unique_neighbour_owners": 5
-    },
     "parafalls": {
         "province": "parafalls",
-        "owner": "F-S",
+        "owner": "FISTS",
         "type": "auction",
         "neighbours": [
             {
                 "province": "canaima",
-                "owner": "FISTS"
+                "owner": "SEKAI"
             },
             {
                 "province": "guaniamoriver",
@@ -3278,7 +3240,7 @@
             },
             {
                 "province": "parimatapirapeconationalpark",
-                "owner": "PANDA"
+                "owner": "F-S"
             },
             {
                 "province": "puertoayacucho",
@@ -3289,14 +3251,52 @@
         "free_applications": 8,
         "unique_neighbour_owners": 3
     },
+    "parauapebas": {
+        "province": "parauapebas",
+        "owner": "",
+        "type": "",
+        "neighbours": [
+            {
+                "province": "cumarudonorte",
+                "owner": "IMPCT"
+            },
+            {
+                "province": "eldoradodoscarajas",
+                "owner": "IMPCT"
+            },
+            {
+                "province": "maraba",
+                "owner": ""
+            },
+            {
+                "province": "moradadosol",
+                "owner": "IMPCT"
+            },
+            {
+                "province": "novorepartimento",
+                "owner": "L1ME"
+            },
+            {
+                "province": "redencao",
+                "owner": "CBMB"
+            },
+            {
+                "province": "tucuma",
+                "owner": "DUAL"
+            }
+        ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 4
+    },
     "parimatapirapeconationalpark": {
         "province": "parimatapirapeconationalpark",
-        "owner": "PANDA",
+        "owner": "F-S",
         "type": "neighbour",
         "neighbours": [
             {
                 "province": "canaima",
-                "owner": "FISTS"
+                "owner": "SEKAI"
             },
             {
                 "province": "comunidadpurima",
@@ -3304,7 +3304,7 @@
             },
             {
                 "province": "parafalls",
-                "owner": "F-S"
+                "owner": "FISTS"
             },
             {
                 "province": "puertoayacucho",
@@ -3316,17 +3316,17 @@
             },
             {
                 "province": "uiaiacas",
-                "owner": "NSND"
+                "owner": ""
             }
         ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 6
+        "max_applications_number": 16,
+        "free_applications": 8,
+        "unique_neighbour_owners": 4
     },
     "parintins": {
         "province": "parintins",
         "owner": "SEKAI",
-        "type": "landing",
+        "type": "",
         "neighbours": [
             {
                 "province": "itaituba",
@@ -3342,17 +3342,47 @@
             },
             {
                 "province": "varrevento",
-                "owner": "DOLL"
+                "owner": "OPAYA"
             }
         ],
-        "max_applications_number": 32,
+        "max_applications_number": 0,
         "free_applications": 0,
         "unique_neighbour_owners": 3
     },
+    "parnaiba": {
+        "province": "parnaiba",
+        "owner": "DOVE",
+        "type": "",
+        "neighbours": [
+            {
+                "province": "caxias",
+                "owner": "DOLL"
+            },
+            {
+                "province": "crateus",
+                "owner": "_KZ"
+            },
+            {
+                "province": "saoluis",
+                "owner": "ESLMN"
+            },
+            {
+                "province": "sobral",
+                "owner": "ESA"
+            },
+            {
+                "province": "teresina",
+                "owner": "DOVE"
+            }
+        ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 5
+    },
     "parnarama": {
         "province": "parnarama",
-        "owner": "_KZ",
-        "type": "neighbour",
+        "owner": "L1ME",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "barradocorda",
@@ -3360,71 +3390,23 @@
             },
             {
                 "province": "caxias",
-                "owner": "ESLMN"
+                "owner": "DOLL"
             },
             {
                 "province": "colinas",
-                "owner": "DRANK"
+                "owner": "IMPCT"
             },
             {
                 "province": "floriano",
-                "owner": "L1ME"
+                "owner": "ESA"
             },
             {
                 "province": "teresina",
-                "owner": "LEM0N"
+                "owner": "DOVE"
             },
             {
                 "province": "valencadopiaui",
-                "owner": "_KZ"
-            }
-        ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 6
-    },
-    "pasorobles": {
-        "province": "pasorobles",
-        "owner": "SEKAI",
-        "type": "neighbour",
-        "neighbours": [
-            {
-                "province": "fresno",
-                "owner": "LEM0N"
-            },
-            {
-                "province": "salinas",
-                "owner": "SEKAI"
-            }
-        ],
-        "max_applications_number": 8,
-        "free_applications": 4,
-        "unique_neighbour_owners": 2
-    },
-    "parnaiba": {
-        "province": "parnaiba",
-        "owner": "DRANK",
-        "type": "neighbour",
-        "neighbours": [
-            {
-                "province": "caxias",
-                "owner": "ESLMN"
-            },
-            {
-                "province": "crateus",
-                "owner": "CAPA"
-            },
-            {
-                "province": "saoluis",
-                "owner": "VOZ"
-            },
-            {
-                "province": "sobral",
-                "owner": "W-D"
-            },
-            {
-                "province": "teresina",
-                "owner": "LEM0N"
+                "owner": "TWWS"
             }
         ],
         "max_applications_number": 32,
@@ -3433,7 +3415,7 @@
     },
     "pasto": {
         "province": "pasto",
-        "owner": "NSND",
+        "owner": "",
         "type": "neighbour",
         "neighbours": [
             {
@@ -3450,25 +3432,43 @@
             },
             {
                 "province": "tumaco",
-                "owner": "NSND"
+                "owner": "_KZ"
             }
         ],
         "max_applications_number": 16,
         "free_applications": 8,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 3
     },
-    "patos": {
-        "province": "patos",
-        "owner": "NSND",
-        "type": "",
+    "pasorobles": {
+        "province": "pasorobles",
+        "owner": "GNS",
+        "type": "auction",
         "neighbours": [
             {
-                "province": "belojardim",
+                "province": "fresno",
                 "owner": "SEKAI"
             },
             {
+                "province": "salinas",
+                "owner": "SEKAI"
+            }
+        ],
+        "max_applications_number": 8,
+        "free_applications": 4,
+        "unique_neighbour_owners": 1
+    },
+    "patos": {
+        "province": "patos",
+        "owner": "PLA-2",
+        "type": "landing",
+        "neighbours": [
+            {
+                "province": "belojardim",
+                "owner": "DOVE"
+            },
+            {
                 "province": "cajazeiras",
-                "owner": "N-W-O"
+                "owner": "L1ME"
             },
             {
                 "province": "mossoro",
@@ -3476,16 +3476,50 @@
             },
             {
                 "province": "natal",
-                "owner": "40WR8"
+                "owner": "DOVE"
             },
             {
                 "province": "recife",
-                "owner": "N-W-O"
+                "owner": "SEKAI"
+            }
+        ],
+        "max_applications_number": 32,
+        "free_applications": 0,
+        "unique_neighbour_owners": 4
+    },
+    "petrolina": {
+        "province": "petrolina",
+        "owner": "ESA",
+        "type": "",
+        "neighbours": [
+            {
+                "province": "araripina",
+                "owner": "L1ME"
+            },
+            {
+                "province": "casanova",
+                "owner": "L1ME"
+            },
+            {
+                "province": "jacobina",
+                "owner": "ESA"
+            },
+            {
+                "province": "pauloafonso",
+                "owner": "PANDA"
+            },
+            {
+                "province": "salgueiro",
+                "owner": "L1ME"
+            },
+            {
+                "province": "serratalhada",
+                "owner": "PANDA"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 3
     },
     "pauloafonso": {
         "province": "pauloafonso",
@@ -3498,7 +3532,7 @@
             },
             {
                 "province": "arapiraca",
-                "owner": "GNS"
+                "owner": "L1ME"
             },
             {
                 "province": "conceicaodocoite",
@@ -3510,46 +3544,12 @@
             },
             {
                 "province": "serratalhada",
-                "owner": "L1ME"
+                "owner": "PANDA"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
         "unique_neighbour_owners": 3
-    },
-    "petrolina": {
-        "province": "petrolina",
-        "owner": "ESA",
-        "type": "landing",
-        "neighbours": [
-            {
-                "province": "araripina",
-                "owner": "L1ME"
-            },
-            {
-                "province": "casanova",
-                "owner": "ESA"
-            },
-            {
-                "province": "jacobina",
-                "owner": "ESA"
-            },
-            {
-                "province": "pauloafonso",
-                "owner": "PANDA"
-            },
-            {
-                "province": "salgueiro",
-                "owner": "-1AR-"
-            },
-            {
-                "province": "serratalhada",
-                "owner": "L1ME"
-            }
-        ],
-        "max_applications_number": 32,
-        "free_applications": 0,
-        "unique_neighbour_owners": 4
     },
     "picos": {
         "province": "picos",
@@ -3562,11 +3562,11 @@
             },
             {
                 "province": "casanova",
-                "owner": "ESA"
+                "owner": "L1ME"
             },
             {
                 "province": "floriano",
-                "owner": "L1ME"
+                "owner": "ESA"
             },
             {
                 "province": "saoraimundononato",
@@ -3578,21 +3578,43 @@
             },
             {
                 "province": "valencadopiaui",
-                "owner": "_KZ"
+                "owner": "TWWS"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
         "unique_neighbour_owners": 4
     },
+    "pirilandia": {
+        "province": "pirilandia",
+        "owner": "LEM0N",
+        "type": "defender",
+        "neighbours": [
+            {
+                "province": "altoalegre",
+                "owner": "GNS"
+            },
+            {
+                "province": "amazonnationalforest",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "uiaiacas",
+                "owner": ""
+            }
+        ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 1
+    },
     "pioche": {
         "province": "pioche",
-        "owner": "NSND",
+        "owner": "EMPIR",
         "type": "neighbour",
         "neighbours": [
             {
                 "province": "adaven",
-                "owner": "SEKAI"
+                "owner": "LEM0N"
             },
             {
                 "province": "caliente",
@@ -3600,7 +3622,7 @@
             },
             {
                 "province": "hamlinvalley",
-                "owner": "NSND"
+                "owner": "LEM0N"
             },
             {
                 "province": "stgeorge",
@@ -3609,33 +3631,11 @@
         ],
         "max_applications_number": 8,
         "free_applications": 4,
-        "unique_neighbour_owners": 3
-    },
-    "pirilandia": {
-        "province": "pirilandia",
-        "owner": "HO-PE",
-        "type": "neighbour",
-        "neighbours": [
-            {
-                "province": "altoalegre",
-                "owner": "EMPIR"
-            },
-            {
-                "province": "amazonnationalforest",
-                "owner": "LEM0N"
-            },
-            {
-                "province": "uiaiacas",
-                "owner": "NSND"
-            }
-        ],
-        "max_applications_number": 16,
-        "free_applications": 8,
-        "unique_neighbour_owners": 3
+        "unique_neighbour_owners": 1
     },
     "placas": {
         "province": "placas",
-        "owner": "STRV",
+        "owner": "CAPA",
         "type": "",
         "neighbours": [
             {
@@ -3652,21 +3652,21 @@
             },
             {
                 "province": "teimoso",
-                "owner": "CAPA"
+                "owner": "STRV"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 3
+        "unique_neighbour_owners": 2
     },
     "portodosgauchos": {
         "province": "portodosgauchos",
         "owner": "LIHKG",
-        "type": "landing",
+        "type": "",
         "neighbours": [
             {
                 "province": "juina",
-                "owner": "LIHKG"
+                "owner": "IMPCT"
             },
             {
                 "province": "novabandeirantes",
@@ -3677,14 +3677,14 @@
                 "owner": "IMPCT"
             }
         ],
-        "max_applications_number": 32,
+        "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 2
+        "unique_neighbour_owners": 1
     },
     "popayan": {
         "province": "popayan",
         "owner": "DRANK",
-        "type": "",
+        "type": "auction",
         "neighbours": [
             {
                 "province": "buenaventura",
@@ -3692,7 +3692,7 @@
             },
             {
                 "province": "cali",
-                "owner": "TENT"
+                "owner": "DRANK"
             },
             {
                 "province": "florencia",
@@ -3700,29 +3700,29 @@
             },
             {
                 "province": "pasto",
-                "owner": "NSND"
+                "owner": ""
             },
             {
                 "province": "tumaco",
-                "owner": "NSND"
+                "owner": "_KZ"
             }
         ],
-        "max_applications_number": 0,
-        "free_applications": 0,
+        "max_applications_number": 16,
+        "free_applications": 8,
         "unique_neighbour_owners": 4
     },
     "portonacional": {
         "province": "portonacional",
         "owner": "TENT",
-        "type": "landing",
+        "type": "",
         "neighbours": [
             {
                 "province": "almas",
-                "owner": "CHN"
+                "owner": "TENT"
             },
             {
                 "province": "palmas",
-                "owner": "TENT"
+                "owner": "BCRT"
             },
             {
                 "province": "santanadoaraguaia",
@@ -3733,13 +3733,13 @@
                 "owner": "STRV"
             }
         ],
-        "max_applications_number": 32,
+        "max_applications_number": 0,
         "free_applications": 0,
         "unique_neighbour_owners": 4
     },
     "puertocarreno": {
         "province": "puertocarreno",
-        "owner": "PANDA",
+        "owner": "",
         "type": "neighbour",
         "neighbours": [
             {
@@ -3767,64 +3767,8 @@
                 "owner": "GNS"
             }
         ],
-        "max_applications_number": 16,
-        "free_applications": 8,
-        "unique_neighbour_owners": 5
-    },
-    "puertoleguizamo": {
-        "province": "puertoleguizamo",
-        "owner": "SEKAI",
-        "type": "neighbour",
-        "neighbours": [
-            {
-                "province": "elestadio",
-                "owner": "LEM0N"
-            },
-            {
-                "province": "sanjosedelguaviare",
-                "owner": "LEM0N"
-            },
-            {
-                "province": "sanvicentedelcaguan",
-                "owner": "HO-PE"
-            },
-            {
-                "province": "solita",
-                "owner": "LEM0N"
-            }
-        ],
-        "max_applications_number": 16,
-        "free_applications": 8,
-        "unique_neighbour_owners": 2
-    },
-    "puertoprincipe": {
-        "province": "puertoprincipe",
-        "owner": "DOLL",
-        "type": "neighbour",
-        "neighbours": [
-            {
-                "province": "barrancominas",
-                "owner": "T7F"
-            },
-            {
-                "province": "cabuyaro",
-                "owner": "LEM0N"
-            },
-            {
-                "province": "mapiripan",
-                "owner": "SEKAI"
-            },
-            {
-                "province": "mitu",
-                "owner": "GNS"
-            },
-            {
-                "province": "orocue",
-                "owner": ""
-            }
-        ],
-        "max_applications_number": 16,
-        "free_applications": 8,
+        "max_applications_number": 0,
+        "free_applications": 0,
         "unique_neighbour_owners": 4
     },
     "puertoayacucho": {
@@ -3846,20 +3790,76 @@
             },
             {
                 "province": "parafalls",
-                "owner": "F-S"
+                "owner": "FISTS"
             },
             {
                 "province": "parimatapirapeconationalpark",
-                "owner": "PANDA"
+                "owner": "F-S"
             },
             {
                 "province": "puertocarreno",
-                "owner": "PANDA"
+                "owner": ""
+            }
+        ],
+        "max_applications_number": 16,
+        "free_applications": 8,
+        "unique_neighbour_owners": 4
+    },
+    "puertoleguizamo": {
+        "province": "puertoleguizamo",
+        "owner": "SEKAI",
+        "type": "neighbour",
+        "neighbours": [
+            {
+                "province": "elestadio",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "sanjosedelguaviare",
+                "owner": "GNS"
+            },
+            {
+                "province": "sanvicentedelcaguan",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "solita",
+                "owner": "LEM0N"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 2
+    },
+    "puertoprincipe": {
+        "province": "puertoprincipe",
+        "owner": "",
+        "type": "neighbour",
+        "neighbours": [
+            {
+                "province": "barrancominas",
+                "owner": "T7F"
+            },
+            {
+                "province": "cabuyaro",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "mapiripan",
+                "owner": "SEKAI"
+            },
+            {
+                "province": "mitu",
+                "owner": "PANDA"
+            },
+            {
+                "province": "orocue",
+                "owner": ""
+            }
+        ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 3
     },
     "quibdo": {
         "province": "quibdo",
@@ -3881,24 +3881,24 @@
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 3
+        "unique_neighbour_owners": 2
     },
     "quixeramobim": {
         "province": "quixeramobim",
-        "owner": "ESA",
-        "type": "neighbour",
+        "owner": "CAPA",
+        "type": "",
         "neighbours": [
             {
                 "province": "crateus",
-                "owner": "CAPA"
+                "owner": "_KZ"
             },
             {
                 "province": "fortaleza",
-                "owner": "PLA-2"
+                "owner": ""
             },
             {
                 "province": "ico",
-                "owner": "LEM0N"
+                "owner": "L1ME"
             },
             {
                 "province": "itapipoca",
@@ -3913,74 +3913,40 @@
                 "owner": "CAPA"
             }
         ],
-        "max_applications_number": 32,
-        "free_applications": 0,
-        "unique_neighbour_owners": 5
-    },
-    "recife": {
-        "province": "recife",
-        "owner": "N-W-O",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "belojardim",
-                "owner": "SEKAI"
-            },
-            {
-                "province": "maceio",
-                "owner": "VOZ"
-            },
-            {
-                "province": "natal",
-                "owner": "40WR8"
-            },
-            {
-                "province": "patos",
-                "owner": "NSND"
-            }
-        ],
         "max_applications_number": 0,
         "free_applications": 0,
         "unique_neighbour_owners": 4
     },
-    "redencao": {
-        "province": "redencao",
-        "owner": "IMPCT",
+    "recife": {
+        "province": "recife",
+        "owner": "SEKAI",
         "type": "landing",
         "neighbours": [
             {
-                "province": "araguaina",
-                "owner": "CHN"
+                "province": "belojardim",
+                "owner": "DOVE"
             },
             {
-                "province": "colinasdotocantins",
-                "owner": "CHN"
+                "province": "maceio",
+                "owner": ""
             },
             {
-                "province": "cumarudonorte",
-                "owner": "TENT"
+                "province": "natal",
+                "owner": "DOVE"
             },
             {
-                "province": "eldoradodoscarajas",
-                "owner": "ICPD"
-            },
-            {
-                "province": "parauapebas",
-                "owner": "IMPCT"
-            },
-            {
-                "province": "santanadoaraguaia",
-                "owner": "F_B"
+                "province": "patos",
+                "owner": "PLA-2"
             }
         ],
         "max_applications_number": 32,
         "free_applications": 0,
-        "unique_neighbour_owners": 5
+        "unique_neighbour_owners": 2
     },
     "remanso": {
         "province": "remanso",
         "owner": "DOLL",
-        "type": "landing",
+        "type": "",
         "neighbours": [
             {
                 "province": "bomjesus",
@@ -3988,15 +3954,15 @@
             },
             {
                 "province": "buritirama",
-                "owner": "DOLL"
+                "owner": "STRV"
             },
             {
                 "province": "casanova",
-                "owner": "ESA"
+                "owner": "L1ME"
             },
             {
                 "province": "irece",
-                "owner": ""
+                "owner": "EVEN"
             },
             {
                 "province": "saoraimundononato",
@@ -4004,12 +3970,46 @@
             },
             {
                 "province": "xiquexique",
-                "owner": ""
+                "owner": "DOLL"
             }
         ],
-        "max_applications_number": 32,
+        "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 3
+        "unique_neighbour_owners": 5
+    },
+    "redencao": {
+        "province": "redencao",
+        "owner": "CBMB",
+        "type": "",
+        "neighbours": [
+            {
+                "province": "araguaina",
+                "owner": "CHN"
+            },
+            {
+                "province": "colinasdotocantins",
+                "owner": "TENT"
+            },
+            {
+                "province": "cumarudonorte",
+                "owner": "IMPCT"
+            },
+            {
+                "province": "eldoradodoscarajas",
+                "owner": "IMPCT"
+            },
+            {
+                "province": "parauapebas",
+                "owner": ""
+            },
+            {
+                "province": "santanadoaraguaia",
+                "owner": "F_B"
+            }
+        ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 4
     },
     "riodourado": {
         "province": "riodourado",
@@ -4018,11 +4018,11 @@
         "neighbours": [
             {
                 "province": "aldeiapiaracu",
-                "owner": "DRANK"
+                "owner": "IMPCT"
             },
             {
                 "province": "cumarudonorte",
-                "owner": "TENT"
+                "owner": "IMPCT"
             },
             {
                 "province": "kendjan",
@@ -4034,7 +4034,7 @@
             },
             {
                 "province": "vilarica",
-                "owner": "DUAL"
+                "owner": "STRV"
             }
         ],
         "max_applications_number": 0,
@@ -4044,7 +4044,7 @@
     "ruropolis": {
         "province": "ruropolis",
         "owner": "DUAL",
-        "type": "",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "cuiucuiu",
@@ -4056,7 +4056,7 @@
             },
             {
                 "province": "placas",
-                "owner": "STRV"
+                "owner": "CAPA"
             },
             {
                 "province": "seringalsaojorge",
@@ -4064,16 +4064,46 @@
             },
             {
                 "province": "teimoso",
-                "owner": "CAPA"
+                "owner": "STRV"
+            }
+        ],
+        "max_applications_number": 32,
+        "free_applications": 0,
+        "unique_neighbour_owners": 4
+    },
+    "salgueiro": {
+        "province": "salgueiro",
+        "owner": "L1ME",
+        "type": "",
+        "neighbours": [
+            {
+                "province": "araripina",
+                "owner": "L1ME"
+            },
+            {
+                "province": "cajazeiras",
+                "owner": "L1ME"
+            },
+            {
+                "province": "juazeirodonorte",
+                "owner": "L1ME"
+            },
+            {
+                "province": "petrolina",
+                "owner": "ESA"
+            },
+            {
+                "province": "serratalhada",
+                "owner": "PANDA"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 3
     },
     "saldana": {
         "province": "saldana",
-        "owner": "GNS",
+        "owner": "FISTS",
         "type": "neighbour",
         "neighbours": [
             {
@@ -4082,7 +4112,7 @@
             },
             {
                 "province": "cali",
-                "owner": "TENT"
+                "owner": "DRANK"
             },
             {
                 "province": "florencia",
@@ -4098,89 +4128,21 @@
             },
             {
                 "province": "sanvicentedelcaguan",
-                "owner": "HO-PE"
-            }
-        ],
-        "max_applications_number": 16,
-        "free_applications": 8,
-        "unique_neighbour_owners": 6
-    },
-    "salgueiro": {
-        "province": "salgueiro",
-        "owner": "-1AR-",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "araripina",
-                "owner": "L1ME"
-            },
-            {
-                "province": "cajazeiras",
-                "owner": "N-W-O"
-            },
-            {
-                "province": "juazeirodonorte",
-                "owner": "L1ME"
-            },
-            {
-                "province": "petrolina",
-                "owner": "ESA"
-            },
-            {
-                "province": "serratalhada",
-                "owner": "L1ME"
-            }
-        ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 3
-    },
-    "sancarlosderionegro": {
-        "province": "sancarlosderionegro",
-        "owner": "PLA-2",
-        "type": "neighbour",
-        "neighbours": [
-            {
-                "province": "barrancominas",
-                "owner": "T7F"
-            },
-            {
-                "province": "ibacaba",
-                "owner": "GNS"
-            },
-            {
-                "province": "maroa",
-                "owner": "LEM0N"
-            },
-            {
-                "province": "mitu",
-                "owner": "GNS"
-            },
-            {
-                "province": "sanfernandodeatabapo",
-                "owner": "GNS"
-            },
-            {
-                "province": "sansimondelcocuy",
-                "owner": "NSND"
-            },
-            {
-                "province": "yanomamisettlement",
                 "owner": "LEM0N"
             }
         ],
         "max_applications_number": 16,
         "free_applications": 8,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 5
     },
     "salinas": {
         "province": "salinas",
         "owner": "SEKAI",
-        "type": "neighbour",
+        "type": "",
         "neighbours": [
             {
                 "province": "fresno",
-                "owner": "LEM0N"
+                "owner": "SEKAI"
             },
             {
                 "province": "modesto",
@@ -4188,15 +4150,15 @@
             },
             {
                 "province": "pasorobles",
-                "owner": "SEKAI"
+                "owner": "GNS"
             },
             {
                 "province": "sanjose",
-                "owner": "LEM0N"
+                "owner": "SEKAI"
             }
         ],
-        "max_applications_number": 8,
-        "free_applications": 4,
+        "max_applications_number": 0,
+        "free_applications": 0,
         "unique_neighbour_owners": 2
     },
     "sanfernandodeatabapo": {
@@ -4214,21 +4176,59 @@
             },
             {
                 "province": "puertocarreno",
-                "owner": "PANDA"
+                "owner": ""
             },
             {
                 "province": "sancarlosderionegro",
+                "owner": "DUAL"
+            }
+        ],
+        "max_applications_number": 16,
+        "free_applications": 8,
+        "unique_neighbour_owners": 2
+    },
+    "sancarlosderionegro": {
+        "province": "sancarlosderionegro",
+        "owner": "DUAL",
+        "type": "neighbour",
+        "neighbours": [
+            {
+                "province": "barrancominas",
+                "owner": "T7F"
+            },
+            {
+                "province": "ibacaba",
                 "owner": "PLA-2"
+            },
+            {
+                "province": "maroa",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "mitu",
+                "owner": "PANDA"
+            },
+            {
+                "province": "sanfernandodeatabapo",
+                "owner": "GNS"
+            },
+            {
+                "province": "sansimondelcocuy",
+                "owner": "PLA-2"
+            },
+            {
+                "province": "yanomamisettlement",
+                "owner": "LEM0N"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 5
     },
     "sanjose": {
         "province": "sanjose",
-        "owner": "LEM0N",
-        "type": "defender",
+        "owner": "SEKAI",
+        "type": "auction",
         "neighbours": [
             {
                 "province": "modesto",
@@ -4239,36 +4239,14 @@
                 "owner": "SEKAI"
             }
         ],
-        "max_applications_number": 0,
-        "free_applications": 0,
+        "max_applications_number": 8,
+        "free_applications": 4,
         "unique_neighbour_owners": 1
-    },
-    "sansimondelcocuy": {
-        "province": "sansimondelcocuy",
-        "owner": "NSND",
-        "type": "neighbour",
-        "neighbours": [
-            {
-                "province": "ibacaba",
-                "owner": "GNS"
-            },
-            {
-                "province": "sancarlosderionegro",
-                "owner": "PLA-2"
-            },
-            {
-                "province": "yanomamisettlement",
-                "owner": "LEM0N"
-            }
-        ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 3
     },
     "sanjosedelguaviare": {
         "province": "sanjosedelguaviare",
-        "owner": "LEM0N",
-        "type": "defender",
+        "owner": "GNS",
+        "type": "neighbour",
         "neighbours": [
             {
                 "province": "caruru",
@@ -4292,55 +4270,77 @@
             },
             {
                 "province": "sanvicentedelcaguan",
-                "owner": "HO-PE"
-            }
-        ],
-        "max_applications_number": 16,
-        "free_applications": 8,
-        "unique_neighbour_owners": 4
-    },
-    "santaelenadeuairen": {
-        "province": "santaelenadeuairen",
-        "owner": "PLA-2",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "altoalegre",
-                "owner": "EMPIR"
-            },
-            {
-                "province": "canaima",
-                "owner": "FISTS"
-            },
-            {
-                "province": "parimatapirapeconationalpark",
-                "owner": "PANDA"
-            },
-            {
-                "province": "uiaiacas",
-                "owner": "NSND"
+                "owner": "LEM0N"
             }
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 3
+    },
+    "sansimondelcocuy": {
+        "province": "sansimondelcocuy",
+        "owner": "PLA-2",
+        "type": "neighbour",
+        "neighbours": [
+            {
+                "province": "ibacaba",
+                "owner": "PLA-2"
+            },
+            {
+                "province": "sancarlosderionegro",
+                "owner": "DUAL"
+            },
+            {
+                "province": "yanomamisettlement",
+                "owner": "LEM0N"
+            }
+        ],
+        "max_applications_number": 16,
+        "free_applications": 8,
+        "unique_neighbour_owners": 2
+    },
+    "santaelenadeuairen": {
+        "province": "santaelenadeuairen",
+        "owner": "PLA-2",
+        "type": "auction",
+        "neighbours": [
+            {
+                "province": "altoalegre",
+                "owner": "GNS"
+            },
+            {
+                "province": "canaima",
+                "owner": "SEKAI"
+            },
+            {
+                "province": "parimatapirapeconationalpark",
+                "owner": "F-S"
+            },
+            {
+                "province": "uiaiacas",
+                "owner": ""
+            }
+        ],
+        "max_applications_number": 16,
+        "free_applications": 8,
+        "unique_neighbour_owners": 3
     },
     "santanadoaraguaia": {
         "province": "santanadoaraguaia",
         "owner": "F_B",
-        "type": "landing",
+        "type": "",
         "neighbours": [
             {
                 "province": "colinasdotocantins",
-                "owner": "CHN"
+                "owner": "TENT"
             },
             {
                 "province": "cumarudonorte",
-                "owner": "TENT"
+                "owner": "IMPCT"
             },
             {
                 "province": "palmas",
-                "owner": "TENT"
+                "owner": "BCRT"
             },
             {
                 "province": "portonacional",
@@ -4348,7 +4348,7 @@
             },
             {
                 "province": "redencao",
-                "owner": "IMPCT"
+                "owner": "CBMB"
             },
             {
                 "province": "saofelixdoaraguaia",
@@ -4356,65 +4356,17 @@
             },
             {
                 "province": "vilarica",
-                "owner": "DUAL"
+                "owner": "STRV"
             }
         ],
-        "max_applications_number": 32,
+        "max_applications_number": 0,
         "free_applications": 0,
         "unique_neighbour_owners": 5
-    },
-    "santarem": {
-        "province": "santarem",
-        "owner": "STRV",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "itaituba",
-                "owner": "T7F"
-            },
-            {
-                "province": "parintins",
-                "owner": "SEKAI"
-            },
-            {
-                "province": "placas",
-                "owner": "STRV"
-            }
-        ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 3
-    },
-    "saofelixdoaraguaia": {
-        "province": "saofelixdoaraguaia",
-        "owner": "STRV",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "confresa",
-                "owner": "STRV"
-            },
-            {
-                "province": "portonacional",
-                "owner": "TENT"
-            },
-            {
-                "province": "santanadoaraguaia",
-                "owner": "F_B"
-            },
-            {
-                "province": "vilarica",
-                "owner": "DUAL"
-            }
-        ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 4
     },
     "santoantoniodomatupi": {
         "province": "santoantoniodomatupi",
         "owner": "DRANK",
-        "type": "",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "apui",
@@ -4422,7 +4374,7 @@
             },
             {
                 "province": "auxiliadora",
-                "owner": ""
+                "owner": "10086"
             },
             {
                 "province": "bocadomoreru",
@@ -4434,17 +4386,39 @@
             },
             {
                 "province": "machadinhodoeste",
-                "owner": "10086"
+                "owner": "STRV"
             }
         ],
-        "max_applications_number": 0,
+        "max_applications_number": 32,
         "free_applications": 0,
         "unique_neighbour_owners": 4
     },
+    "santarem": {
+        "province": "santarem",
+        "owner": "STRV",
+        "type": "landing",
+        "neighbours": [
+            {
+                "province": "itaituba",
+                "owner": "T7F"
+            },
+            {
+                "province": "parintins",
+                "owner": "SEKAI"
+            },
+            {
+                "province": "placas",
+                "owner": "CAPA"
+            }
+        ],
+        "max_applications_number": 32,
+        "free_applications": 0,
+        "unique_neighbour_owners": 3
+    },
     "sanvicentedelcaguan": {
         "province": "sanvicentedelcaguan",
-        "owner": "HO-PE",
-        "type": "neighbour",
+        "owner": "LEM0N",
+        "type": "defender",
         "neighbours": [
             {
                 "province": "florencia",
@@ -4460,25 +4434,51 @@
             },
             {
                 "province": "saldana",
-                "owner": "GNS"
+                "owner": "FISTS"
             },
             {
                 "province": "sanjosedelguaviare",
-                "owner": "LEM0N"
+                "owner": "GNS"
             },
             {
                 "province": "solita",
                 "owner": "LEM0N"
             }
         ],
-        "max_applications_number": 0,
+        "max_applications_number": 16,
+        "free_applications": 8,
+        "unique_neighbour_owners": 3
+    },
+    "saofelixdoaraguaia": {
+        "province": "saofelixdoaraguaia",
+        "owner": "STRV",
+        "type": "landing",
+        "neighbours": [
+            {
+                "province": "confresa",
+                "owner": "STRV"
+            },
+            {
+                "province": "portonacional",
+                "owner": "TENT"
+            },
+            {
+                "province": "santanadoaraguaia",
+                "owner": "F_B"
+            },
+            {
+                "province": "vilarica",
+                "owner": "STRV"
+            }
+        ],
+        "max_applications_number": 32,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 3
     },
     "saoluis": {
         "province": "saoluis",
-        "owner": "VOZ",
-        "type": "",
+        "owner": "ESLMN",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "bacabal",
@@ -4486,21 +4486,21 @@
             },
             {
                 "province": "caxias",
-                "owner": "ESLMN"
+                "owner": "DOLL"
             },
             {
                 "province": "parnaiba",
-                "owner": "DRANK"
+                "owner": "DOVE"
             }
         ],
-        "max_applications_number": 0,
+        "max_applications_number": 32,
         "free_applications": 0,
-        "unique_neighbour_owners": 2
+        "unique_neighbour_owners": 3
     },
     "saoraimundononato": {
         "province": "saoraimundononato",
         "owner": "ESA",
-        "type": "landing",
+        "type": "",
         "neighbours": [
             {
                 "province": "bomjesus",
@@ -4508,11 +4508,11 @@
             },
             {
                 "province": "casanova",
-                "owner": "ESA"
+                "owner": "L1ME"
             },
             {
                 "province": "floriano",
-                "owner": "L1ME"
+                "owner": "ESA"
             },
             {
                 "province": "picos",
@@ -4524,17 +4524,17 @@
             },
             {
                 "province": "urucui",
-                "owner": "L1ME"
+                "owner": "ESA"
             }
         ],
-        "max_applications_number": 32,
+        "max_applications_number": 0,
         "free_applications": 0,
         "unique_neighbour_owners": 3
     },
     "saravena": {
         "province": "saravena",
-        "owner": "",
-        "type": "auction",
+        "owner": "HO-PE",
+        "type": "",
         "neighbours": [
             {
                 "province": "arauca",
@@ -4549,52 +4549,18 @@
                 "owner": "DRANK"
             }
         ],
-        "max_applications_number": 16,
-        "free_applications": 8,
-        "unique_neighbour_owners": 3
-    },
-    "serratalhada": {
-        "province": "serratalhada",
-        "owner": "L1ME",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "arapiraca",
-                "owner": "GNS"
-            },
-            {
-                "province": "belojardim",
-                "owner": "SEKAI"
-            },
-            {
-                "province": "cajazeiras",
-                "owner": "N-W-O"
-            },
-            {
-                "province": "pauloafonso",
-                "owner": "PANDA"
-            },
-            {
-                "province": "petrolina",
-                "owner": "ESA"
-            },
-            {
-                "province": "salgueiro",
-                "owner": "-1AR-"
-            }
-        ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 6
+        "unique_neighbour_owners": 3
     },
     "seringalsaojorge": {
         "province": "seringalsaojorge",
         "owner": "CAPA",
-        "type": "landing",
+        "type": "",
         "neighbours": [
             {
                 "province": "cachoeiradaserra",
-                "owner": "IMPCT"
+                "owner": ""
             },
             {
                 "province": "cuiucuiu",
@@ -4618,7 +4584,41 @@
             },
             {
                 "province": "teimoso",
-                "owner": "CAPA"
+                "owner": "STRV"
+            }
+        ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 4
+    },
+    "serratalhada": {
+        "province": "serratalhada",
+        "owner": "PANDA",
+        "type": "landing",
+        "neighbours": [
+            {
+                "province": "arapiraca",
+                "owner": "L1ME"
+            },
+            {
+                "province": "belojardim",
+                "owner": "DOVE"
+            },
+            {
+                "province": "cajazeiras",
+                "owner": "L1ME"
+            },
+            {
+                "province": "pauloafonso",
+                "owner": "PANDA"
+            },
+            {
+                "province": "petrolina",
+                "owner": "ESA"
+            },
+            {
+                "province": "salgueiro",
+                "owner": "L1ME"
             }
         ],
         "max_applications_number": 32,
@@ -4627,12 +4627,12 @@
     },
     "sobral": {
         "province": "sobral",
-        "owner": "W-D",
+        "owner": "ESA",
         "type": "",
         "neighbours": [
             {
                 "province": "crateus",
-                "owner": "CAPA"
+                "owner": "_KZ"
             },
             {
                 "province": "itapipoca",
@@ -4640,7 +4640,7 @@
             },
             {
                 "province": "parnaiba",
-                "owner": "DRANK"
+                "owner": "DOVE"
             }
         ],
         "max_applications_number": 0,
@@ -4658,7 +4658,7 @@
             },
             {
                 "province": "pasto",
-                "owner": "NSND"
+                "owner": ""
             },
             {
                 "province": "puertoleguizamo",
@@ -4666,12 +4666,34 @@
             },
             {
                 "province": "sanvicentedelcaguan",
-                "owner": "HO-PE"
+                "owner": "LEM0N"
             }
         ],
         "max_applications_number": 16,
         "free_applications": 8,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 2
+    },
+    "stgeorge": {
+        "province": "stgeorge",
+        "owner": "LEM0N",
+        "type": "defender",
+        "neighbours": [
+            {
+                "province": "caliente",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "hamlinvalley",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "pioche",
+                "owner": "EMPIR"
+            }
+        ],
+        "max_applications_number": 8,
+        "free_applications": 4,
+        "unique_neighbour_owners": 2
     },
     "taboca": {
         "province": "taboca",
@@ -4684,7 +4706,7 @@
             },
             {
                 "province": "moradadosol",
-                "owner": "TENT"
+                "owner": "IMPCT"
             },
             {
                 "province": "seringalsaojorge",
@@ -4692,7 +4714,7 @@
             },
             {
                 "province": "teimoso",
-                "owner": "CAPA"
+                "owner": "STRV"
             },
             {
                 "province": "tucuma",
@@ -4701,16 +4723,16 @@
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 3
+        "unique_neighbour_owners": 4
     },
     "tapaua": {
         "province": "tapaua",
         "owner": "IMPCT",
-        "type": "",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "auxiliadora",
-                "owner": ""
+                "owner": "10086"
             },
             {
                 "province": "codajas",
@@ -4718,21 +4740,21 @@
             },
             {
                 "province": "humaita",
-                "owner": ""
+                "owner": "IMPCT"
             },
             {
                 "province": "novoaripuana",
                 "owner": "S_A_S"
             }
         ],
-        "max_applications_number": 0,
+        "max_applications_number": 32,
         "free_applications": 0,
-        "unique_neighbour_owners": 2
+        "unique_neighbour_owners": 4
     },
     "taua": {
         "province": "taua",
         "owner": "CAPA",
-        "type": "",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "araripina",
@@ -4740,7 +4762,7 @@
             },
             {
                 "province": "crateus",
-                "owner": "CAPA"
+                "owner": "_KZ"
             },
             {
                 "province": "juazeirodonorte",
@@ -4752,21 +4774,21 @@
             },
             {
                 "province": "quixeramobim",
-                "owner": "ESA"
+                "owner": "CAPA"
             },
             {
                 "province": "valencadopiaui",
-                "owner": "_KZ"
+                "owner": "TWWS"
             }
         ],
-        "max_applications_number": 0,
+        "max_applications_number": 32,
         "free_applications": 0,
         "unique_neighbour_owners": 4
     },
     "teimoso": {
         "province": "teimoso",
-        "owner": "CAPA",
-        "type": "",
+        "owner": "STRV",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "altamira",
@@ -4774,15 +4796,15 @@
             },
             {
                 "province": "moradadosol",
-                "owner": "TENT"
+                "owner": "IMPCT"
             },
             {
                 "province": "pacaja",
-                "owner": "NSND"
+                "owner": "L1ME"
             },
             {
                 "province": "placas",
-                "owner": "STRV"
+                "owner": "CAPA"
             },
             {
                 "province": "ruropolis",
@@ -4797,70 +4819,44 @@
                 "owner": "CAPA"
             }
         ],
-        "max_applications_number": 0,
+        "max_applications_number": 32,
         "free_applications": 0,
         "unique_neighbour_owners": 5
     },
     "teresina": {
         "province": "teresina",
-        "owner": "LEM0N",
-        "type": "defender",
+        "owner": "DOVE",
+        "type": "",
         "neighbours": [
             {
                 "province": "caxias",
-                "owner": "ESLMN"
+                "owner": "DOLL"
             },
             {
                 "province": "crateus",
-                "owner": "CAPA"
+                "owner": "_KZ"
             },
             {
                 "province": "parnaiba",
-                "owner": "DRANK"
+                "owner": "DOVE"
             },
             {
                 "province": "parnarama",
-                "owner": "_KZ"
+                "owner": "L1ME"
             },
             {
                 "province": "valencadopiaui",
-                "owner": "_KZ"
+                "owner": "TWWS"
             }
         ],
-        "max_applications_number": 32,
+        "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
-    },
-    "tonopah": {
-        "province": "tonopah",
-        "owner": "PANDA",
-        "type": "neighbour",
-        "neighbours": [
-            {
-                "province": "adaven",
-                "owner": "SEKAI"
-            },
-            {
-                "province": "amargosavalley",
-                "owner": "LEM0N"
-            },
-            {
-                "province": "mammothlakes",
-                "owner": "LEM0N"
-            },
-            {
-                "province": "timbisha",
-                "owner": "DRANK"
-            }
-        ],
-        "max_applications_number": 8,
-        "free_applications": 4,
-        "unique_neighbour_owners": 3
+        "unique_neighbour_owners": 5
     },
     "timbisha": {
         "province": "timbisha",
-        "owner": "DRANK",
-        "type": "neighbour",
+        "owner": "LEM0N",
+        "type": "defender",
         "neighbours": [
             {
                 "province": "amargosavalley",
@@ -4872,38 +4868,42 @@
             },
             {
                 "province": "tonopah",
-                "owner": "PANDA"
+                "owner": "DRANK"
             },
             {
                 "province": "visalia",
-                "owner": "SEKAI"
-            }
-        ],
-        "max_applications_number": 8,
-        "free_applications": 4,
-        "unique_neighbour_owners": 3
-    },
-    "stgeorge": {
-        "province": "stgeorge",
-        "owner": "LEM0N",
-        "type": "defender",
-        "neighbours": [
-            {
-                "province": "caliente",
                 "owner": "LEM0N"
-            },
-            {
-                "province": "hamlinvalley",
-                "owner": "NSND"
-            },
-            {
-                "province": "pioche",
-                "owner": "NSND"
             }
         ],
         "max_applications_number": 8,
         "free_applications": 4,
         "unique_neighbour_owners": 2
+    },
+    "tonopah": {
+        "province": "tonopah",
+        "owner": "DRANK",
+        "type": "neighbour",
+        "neighbours": [
+            {
+                "province": "adaven",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "amargosavalley",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "mammothlakes",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "timbisha",
+                "owner": "LEM0N"
+            }
+        ],
+        "max_applications_number": 8,
+        "free_applications": 4,
+        "unique_neighbour_owners": 1
     },
     "tucuma": {
         "province": "tucuma",
@@ -4912,7 +4912,7 @@
         "neighbours": [
             {
                 "province": "cumarudonorte",
-                "owner": "TENT"
+                "owner": "IMPCT"
             },
             {
                 "province": "kendjan",
@@ -4920,11 +4920,11 @@
             },
             {
                 "province": "moradadosol",
-                "owner": "TENT"
+                "owner": "IMPCT"
             },
             {
                 "province": "parauapebas",
-                "owner": "IMPCT"
+                "owner": ""
             },
             {
                 "province": "riodourado",
@@ -4937,34 +4937,64 @@
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 3
     },
     "tumaco": {
         "province": "tumaco",
-        "owner": "NSND",
-        "type": "auction",
+        "owner": "_KZ",
+        "type": "",
         "neighbours": [
             {
                 "province": "pasto",
-                "owner": "NSND"
+                "owner": ""
             },
             {
                 "province": "popayan",
                 "owner": "DRANK"
             }
         ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 1
+    },
+    "tunja": {
+        "province": "tunja",
+        "owner": "SEKAI",
+        "type": "auction",
+        "neighbours": [
+            {
+                "province": "bogota",
+                "owner": "DOLL"
+            },
+            {
+                "province": "ladorada",
+                "owner": "DRANK"
+            },
+            {
+                "province": "saravena",
+                "owner": "HO-PE"
+            },
+            {
+                "province": "villavicencio",
+                "owner": "DRANK"
+            },
+            {
+                "province": "yopal",
+                "owner": "DRANK"
+            }
+        ],
         "max_applications_number": 16,
         "free_applications": 8,
-        "unique_neighbour_owners": 2
+        "unique_neighbour_owners": 3
     },
     "uiaiacas": {
         "province": "uiaiacas",
-        "owner": "NSND",
+        "owner": "",
         "type": "neighbour",
         "neighbours": [
             {
                 "province": "altoalegre",
-                "owner": "EMPIR"
+                "owner": "GNS"
             },
             {
                 "province": "amazonnationalforest",
@@ -4976,11 +5006,11 @@
             },
             {
                 "province": "parimatapirapeconationalpark",
-                "owner": "PANDA"
+                "owner": "F-S"
             },
             {
                 "province": "pirilandia",
-                "owner": "HO-PE"
+                "owner": "LEM0N"
             },
             {
                 "province": "santaelenadeuairen",
@@ -4991,48 +5021,18 @@
                 "owner": "LEM0N"
             }
         ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 5
-    },
-    "tunja": {
-        "province": "tunja",
-        "owner": "SEKAI",
-        "type": "",
-        "neighbours": [
-            {
-                "province": "bogota",
-                "owner": "DOLL"
-            },
-            {
-                "province": "ladorada",
-                "owner": "_KZ"
-            },
-            {
-                "province": "saravena",
-                "owner": ""
-            },
-            {
-                "province": "villavicencio",
-                "owner": "CHN"
-            },
-            {
-                "province": "yopal",
-                "owner": "DRANK"
-            }
-        ],
-        "max_applications_number": 0,
-        "free_applications": 0,
+        "max_applications_number": 16,
+        "free_applications": 8,
         "unique_neighbour_owners": 4
     },
     "urucui": {
         "province": "urucui",
-        "owner": "L1ME",
-        "type": "",
+        "owner": "ESA",
+        "type": "landing",
         "neighbours": [
             {
                 "province": "balsas",
-                "owner": "PANDA"
+                "owner": "L1ME"
             },
             {
                 "province": "bomjesus",
@@ -5040,41 +5040,41 @@
             },
             {
                 "province": "colinas",
-                "owner": "DRANK"
+                "owner": "IMPCT"
             },
             {
                 "province": "floriano",
-                "owner": "L1ME"
+                "owner": "ESA"
             },
             {
                 "province": "gilbues",
-                "owner": "N-W-O"
+                "owner": "DOLL"
             },
             {
                 "province": "saoraimundononato",
                 "owner": "ESA"
             }
         ],
-        "max_applications_number": 0,
+        "max_applications_number": 32,
         "free_applications": 0,
-        "unique_neighbour_owners": 5
+        "unique_neighbour_owners": 4
     },
     "valencadopiaui": {
         "province": "valencadopiaui",
-        "owner": "_KZ",
-        "type": "neighbour",
+        "owner": "TWWS",
+        "type": "",
         "neighbours": [
             {
                 "province": "crateus",
-                "owner": "CAPA"
+                "owner": "_KZ"
             },
             {
                 "province": "floriano",
-                "owner": "L1ME"
+                "owner": "ESA"
             },
             {
                 "province": "parnarama",
-                "owner": "_KZ"
+                "owner": "L1ME"
             },
             {
                 "province": "picos",
@@ -5086,16 +5086,50 @@
             },
             {
                 "province": "teresina",
-                "owner": "LEM0N"
+                "owner": "DOVE"
             }
         ],
-        "max_applications_number": 32,
+        "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 4
+        "unique_neighbour_owners": 5
+    },
+    "varrevento": {
+        "province": "varrevento",
+        "owner": "OPAYA",
+        "type": "",
+        "neighbours": [
+            {
+                "province": "borba",
+                "owner": "FISTS"
+            },
+            {
+                "province": "itaituba",
+                "owner": "T7F"
+            },
+            {
+                "province": "jacareacanga",
+                "owner": "RGZ"
+            },
+            {
+                "province": "maues",
+                "owner": ""
+            },
+            {
+                "province": "parintins",
+                "owner": "SEKAI"
+            },
+            {
+                "province": "vilameriti",
+                "owner": "DOLL"
+            }
+        ],
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 5
     },
     "vilameriti": {
         "province": "vilameriti",
-        "owner": "RGZ",
+        "owner": "DOLL",
         "type": "",
         "neighbours": [
             {
@@ -5112,7 +5146,7 @@
             },
             {
                 "province": "jacareacanga",
-                "owner": "GYM"
+                "owner": "RGZ"
             },
             {
                 "province": "novoaripuana",
@@ -5120,7 +5154,7 @@
             },
             {
                 "province": "varrevento",
-                "owner": "DOLL"
+                "owner": "OPAYA"
             }
         ],
         "max_applications_number": 0,
@@ -5129,12 +5163,12 @@
     },
     "vilarica": {
         "province": "vilarica",
-        "owner": "DUAL",
+        "owner": "STRV",
         "type": "",
         "neighbours": [
             {
                 "province": "aldeiapiaracu",
-                "owner": "DRANK"
+                "owner": "IMPCT"
             },
             {
                 "province": "confresa",
@@ -5142,7 +5176,7 @@
             },
             {
                 "province": "cumarudonorte",
-                "owner": "TENT"
+                "owner": "IMPCT"
             },
             {
                 "province": "riodourado",
@@ -5159,45 +5193,11 @@
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 5
-    },
-    "varrevento": {
-        "province": "varrevento",
-        "owner": "DOLL",
-        "type": "landing",
-        "neighbours": [
-            {
-                "province": "borba",
-                "owner": "FISTS"
-            },
-            {
-                "province": "itaituba",
-                "owner": "T7F"
-            },
-            {
-                "province": "jacareacanga",
-                "owner": "GYM"
-            },
-            {
-                "province": "maues",
-                "owner": ""
-            },
-            {
-                "province": "parintins",
-                "owner": "SEKAI"
-            },
-            {
-                "province": "vilameriti",
-                "owner": "RGZ"
-            }
-        ],
-        "max_applications_number": 32,
-        "free_applications": 0,
-        "unique_neighbour_owners": 5
+        "unique_neighbour_owners": 4
     },
     "villavicencio": {
         "province": "villavicencio",
-        "owner": "CHN",
+        "owner": "DRANK",
         "type": "neighbour",
         "neighbours": [
             {
@@ -5221,22 +5221,22 @@
                 "owner": "DRANK"
             }
         ],
-        "max_applications_number": 0,
-        "free_applications": 0,
-        "unique_neighbour_owners": 4
+        "max_applications_number": 16,
+        "free_applications": 8,
+        "unique_neighbour_owners": 3
     },
     "xiquexique": {
         "province": "xiquexique",
-        "owner": "",
+        "owner": "DOLL",
         "type": "",
         "neighbours": [
             {
                 "province": "buritirama",
-                "owner": "DOLL"
+                "owner": "STRV"
             },
             {
                 "province": "irece",
-                "owner": ""
+                "owner": "EVEN"
             },
             {
                 "province": "remanso",
@@ -5245,29 +5245,7 @@
         ],
         "max_applications_number": 0,
         "free_applications": 0,
-        "unique_neighbour_owners": 1
-    },
-    "visalia": {
-        "province": "visalia",
-        "owner": "SEKAI",
-        "type": "neighbour",
-        "neighbours": [
-            {
-                "province": "fresno",
-                "owner": "LEM0N"
-            },
-            {
-                "province": "mammothlakes",
-                "owner": "LEM0N"
-            },
-            {
-                "province": "timbisha",
-                "owner": "DRANK"
-            }
-        ],
-        "max_applications_number": 8,
-        "free_applications": 4,
-        "unique_neighbour_owners": 2
+        "unique_neighbour_owners": 3
     },
     "yanomamisettlement": {
         "province": "yanomamisettlement",
@@ -5288,19 +5266,19 @@
             },
             {
                 "province": "sancarlosderionegro",
-                "owner": "PLA-2"
+                "owner": "DUAL"
             },
             {
                 "province": "sansimondelcocuy",
-                "owner": "NSND"
+                "owner": "PLA-2"
             },
             {
                 "province": "uiaiacas",
-                "owner": "NSND"
+                "owner": ""
             }
         ],
-        "max_applications_number": 16,
-        "free_applications": 8,
+        "max_applications_number": 0,
+        "free_applications": 0,
         "unique_neighbour_owners": 3
     },
     "yopal": {
@@ -5322,7 +5300,7 @@
             },
             {
                 "province": "saravena",
-                "owner": ""
+                "owner": "HO-PE"
             },
             {
                 "province": "tunja",
@@ -5330,11 +5308,33 @@
             },
             {
                 "province": "villavicencio",
-                "owner": "CHN"
+                "owner": "DRANK"
             }
         ],
-        "max_applications_number": 16,
-        "free_applications": 8,
-        "unique_neighbour_owners": 4
+        "max_applications_number": 0,
+        "free_applications": 0,
+        "unique_neighbour_owners": 3
+    },
+    "visalia": {
+        "province": "visalia",
+        "owner": "LEM0N",
+        "type": "defender",
+        "neighbours": [
+            {
+                "province": "fresno",
+                "owner": "SEKAI"
+            },
+            {
+                "province": "mammothlakes",
+                "owner": "LEM0N"
+            },
+            {
+                "province": "timbisha",
+                "owner": "LEM0N"
+            }
+        ],
+        "max_applications_number": 8,
+        "free_applications": 4,
+        "unique_neighbour_owners": 2
     }
 }
