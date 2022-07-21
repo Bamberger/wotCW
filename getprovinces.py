@@ -72,9 +72,9 @@ class wotdata:
             except:
                 # max_applications_number = 0
                 # iron_age_sg_league3 = 8 iron_age_sg_league2 = 16 iron_age_sg_league1 = 32
-                if province_info['province']['front_id'] == "iron_age_sg_league3":
+                if province_info['province']['front_id'] == "iron_age_sg_league3" and type_tag == "auction":
                     max_applications_number = 8
-                elif province_info['province']['front_id'] == "iron_age_sg_league2":
+                elif province_info['province']['front_id'] == "iron_age_sg_league2" and type_tag == "auction":
                     max_applications_number = 16
                 else:
                     max_applications_number = 0
@@ -82,14 +82,6 @@ class wotdata:
                 free_applications = province_info['province']['free_applications']
                 if province_info['province']['front_id'] == "iron_age_sg_league1":
                     free_applications = 0
-            if province_info['province']['front_id']:
-                front_id = province_info['province']['front_id']
-
-
-
-
-            
-            # print("Province Type: " + type_tag)
 
             if sheets_mode == TRUE:
                 if mode == "update":
@@ -106,82 +98,52 @@ class wotdata:
 
 
                     p_counter += 1
-                    # At this point we have all provinces returned so we can do final processing
-                    if p_counter == p_count:
-                        # print(json.dumps(province_data))
-                        
+                    # At this point we have all provinces returned so we can do final processing, yes this is a bad hack
+                    if p_counter == p_count:                      
 
                         province_cleanup = {}
                         for province_mod in province_data:
-                            # print("1 " + json.dumps(province_mod))
                             province_n = province_mod['province']
                             province_cleanup[str(province_n)] = province_mod
-                            # print(province_cleanup)
-
-                            for neighbour_mod in province_mod['neighbours']:
-                                # print("2 " + json.dumps(neighbour_mod))
-                                province_val = neighbour_mod['province']
-                                neighbour_owner = neighbour_mod['owner']
-                                # print("3 " + neighbour_owner)
 
                         # Establish owners for each neighbour
                         for province_c in province_cleanup:
-                            # print(province_c)
                             owners = []
-                            i = 0
-                            for neighbour_c in province_cleanup[province_c]['neighbours']:
-                                p = province_cleanup[province_c]['neighbours'][i]['province']
-                                province_cleanup[province_c]['neighbours'][i]['owner'] = province_cleanup[p]['owner']
+                            for idx, neighbour_c in enumerate(province_cleanup[province_c]['neighbours']):
+                                p = province_cleanup[province_c]['neighbours'][idx]['province']
+                                province_cleanup[province_c]['neighbours'][idx]['owner'] = province_cleanup[p]['owner']
                                 if not province_cleanup[p]['owner'] == '':
                                     owners.append(province_cleanup[p]['owner'])
-                                    # print(province_cleanup[p]['owner'])
-                                # print(province_cleanup[province_c]['neighbours'][i])
-                                if province_cleanup[province_c]['neighbours'][i]['owner'] == conf_clan_tag:
-                                    # print("MATCH")
-                                    # print(province_c)
+                                if province_cleanup[province_c]['neighbours'][idx]['owner'] == conf_clan_tag:
                                     province_cleanup[province_c]['type'] = "neighbour"
-                                    # print(province_cleanup[province_c]['type'])
-                                i += 1
-                            # print(owners)
+
+
+                            # TODO: I think we can check if we own the province here and mark as 'defender'
+                            if province_cleanup[province_c]['owner'] == conf_clan_tag:
+                                province_cleanup[province_c]['type'] = "defender"
+
                             unique_owners = set(owners)
-                            # print(len(unique_owners))
-                            # print(unique_owners)
                             province_cleanup[province_c]['unique_neighbour_owners'] = len(unique_owners)
 
                         
-                        # print(json.dumps(province_cleanup))
+                        print(json.dumps(province_cleanup))
                         
-                        i1 = 0
-                        for sheet_data_row in sheet_data:
-                            i2 = 0
+                        for idx1, sheet_data_row in enumerate(sheet_data):
                             # print("sheet_data_row " + str(sheet_data_row))
-                            max_attackers_province = sheet_data[i1][0]
-                            # print("MAX ATTACKERS PROVINCE " + str(max_attackers_province))
+                            max_attackers_province = sheet_data[idx1][0]
                             # Item #5 is owning clan tag and item 6 is landing/auction battles, this is a bad hack but it will work for now
-                            if sheet_data[i1][5] != conf_clan_tag and i1 > 0:
-                                # print(sheet_data[i1])
+                            # if sheet_data[idx1][5] != conf_clan_tag and idx1 > 0:
+                            if idx1 > 0:
+                                # print(sheet_data[idx1])
                                 # print(province_cleanup[max_attackers_province]['type'])
-                                sheet_data[i1][6] = province_cleanup[max_attackers_province]['type']
-                            for sheet_data_row_item in sheet_data_row:
-                                # print(i2)
+                                sheet_data[idx1][6] = province_cleanup[max_attackers_province]['type']
+                            for idx2, sheet_data_row_item in enumerate(sheet_data_row):
+                                # print(idx2)
                                 # Find neighbours for this province if we are up to the max attackers field
                                 if sheet_data_row_item == "MAX_ATTACKERS_HOLDING":
                                     max_attackers = province_cleanup[max_attackers_province]['unique_neighbour_owners'] + province_cleanup[max_attackers_province]['free_applications'] + province_cleanup[max_attackers_province]['max_applications_number']
-                                    sheet_data[i1][i2] = max_attackers
-                                # print(str(i2) + " sheet_data_row_item " + str(sheet_data[i1][i2]))
-                                i2 += 1
-                            i1 +=1
-
-                        # for sheet_data_row in sheet_data:
-                        #     print(sheet_data_row)
-                        #     for sheet_data_row_item in sheet_data_row:
-                        #         print(sheet_data_row_item)
-
-
-
-
-
-
+                                    sheet_data[idx1][idx2] = max_attackers
+                                # print(str(idx2) + " sheet_data_row_item " + str(sheet_data[idx1][idx2]))
 
                         print("Finished updating")
                         try:
