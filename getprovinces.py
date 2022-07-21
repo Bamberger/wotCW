@@ -57,10 +57,8 @@ class wotdata:
                 type_tag = ''
             if province_info['province']['neighbours']:
                 neighbours = []
-                # neighbours = province_info['province']['neighbours']
                 for neighbour in province_info['province']['neighbours']:
                     neighbour_data = {'province': neighbour['alias'],'owner': ""}
-                    # province_info['province']['neighbours']['neighbour['alias']']
                     neighbours.append(neighbour_data)
             else:
                 neighbours = ''
@@ -70,8 +68,7 @@ class wotdata:
             try:
                 max_applications_number = province_info['province']['max_applications_number']
             except:
-                # max_applications_number = 0
-                # iron_age_sg_league3 = 8 iron_age_sg_league2 = 16 iron_age_sg_league1 = 32
+                # TODO: should var this out - iron_age_sg_league3 = 8 iron_age_sg_league2 = 16 iron_age_sg_league1 = 32
                 if province_info['province']['front_id'] == "iron_age_sg_league3" and type_tag == "auction":
                     max_applications_number = 8
                 elif province_info['province']['front_id'] == "iron_age_sg_league2" and type_tag == "auction":
@@ -126,19 +123,15 @@ class wotdata:
                             province_cleanup[province_c]['unique_neighbour_owners'] = len(unique_owners)
 
                         
-                        print(json.dumps(province_cleanup))
+                        # print(json.dumps(province_cleanup))
                         
                         for idx1, sheet_data_row in enumerate(sheet_data):
                             # print("sheet_data_row " + str(sheet_data_row))
                             max_attackers_province = sheet_data[idx1][0]
-                            # Item #5 is owning clan tag and item 6 is landing/auction battles, this is a bad hack but it will work for now
-                            # if sheet_data[idx1][5] != conf_clan_tag and idx1 > 0:
+                            # Item #6 is landing/auction battles, this is a bad hack but it will work for now
                             if idx1 > 0:
-                                # print(sheet_data[idx1])
-                                # print(province_cleanup[max_attackers_province]['type'])
                                 sheet_data[idx1][6] = province_cleanup[max_attackers_province]['type']
                             for idx2, sheet_data_row_item in enumerate(sheet_data_row):
-                                # print(idx2)
                                 # Find neighbours for this province if we are up to the max attackers field
                                 if sheet_data_row_item == "MAX_ATTACKERS_HOLDING":
                                     max_attackers = province_cleanup[max_attackers_province]['unique_neighbour_owners'] + province_cleanup[max_attackers_province]['free_applications'] + province_cleanup[max_attackers_province]['max_applications_number']
