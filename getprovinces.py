@@ -67,7 +67,7 @@ class wotdata:
             province_cleanup[province_c]['unique_neighbour_owners'] = len(
                 owners)
 
-        print(json.dumps(province_cleanup))
+        # print(json.dumps(province_cleanup))
 
         for idx1, sheet_data_row in enumerate(sheet_data):
             # print("sheet_data_row " + str(sheet_data_row))
