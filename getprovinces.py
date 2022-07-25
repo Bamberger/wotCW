@@ -154,9 +154,10 @@ class wotdata:
                 if mode == "update":
                     global p_count
                     global p_counter
+                    opponents =  province_info['province']['attackers_count'] +  province_info['province']['free_bets_attackers_count']
 
                     sheet_data.append([province, province_info['timestamp'], province_info['province']['turns_till_primetime'], province_info['province']['battles_running'],
-                                       province_info['province']['attackers_count'], owner_tag, type_tag, "MAX_ATTACKERS_HOLDING"])
+                                       opponents, owner_tag, type_tag, "MAX_ATTACKERS_HOLDING"])
 
                     record_data = {'province': province, 'owner': owner_tag, 'type': type_tag, 'neighbours': neighbours,
                                    'max_applications_number': max_applications_number, 'free_applications': free_applications}
